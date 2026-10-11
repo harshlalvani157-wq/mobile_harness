@@ -1,0 +1,118 @@
+name: Create or Generate App
+
+on:
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: 'Select Build Variant to compile'
+        required: true
+        default: 'onlineDebug'
+        type: choice
+        options:
+          - 'onlineDebug'
+          - 'onlineRelease'
+          - 'offlineDebug'
+          - 'assembleDebug (both online & offline)'
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'gradle'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Accept Android Licenses & Install NDK / CMake
+        run: |
+          yes | sdkmanager --licenses || true
+          sdkmanager --install "ndk;28.2.13676358" "cmake;3.22.1" "platforms;android-36" "build-tools;35.0.0"
+
+      - name: Prepare Runtime Bundles
+        run: |
+          mkdir -p dist/runtime-bundles
+          VARIANT="${{ github.event.inputs.variant || 'onlineDebug' }}"
+          echo "Selected build variant: $VARIANT"
+
+          # 1. Antigravity CLI bundle is required for all variants (merged into shared assets)
+          if [ ! -f "dist/runtime-bundles/pocketdev-agy-arm64-2026.09.1.tar.zst" ]; then
+            echo "Downloading Antigravity runtime overlay..."
+            curl -fL --retry 3 --connect-timeout 30 -o "dist/runtime-bundles/pocketdev-agy-arm64-2026.09.1.tar.zst" \
+              "https://github.com/techjarves/Mobile-Harness/releases/download/runtime-2026.09.4/pocketdev-agy-arm64-2026.09.1.tar.zst" || {
+                echo "Direct download failed, building Antigravity bundle via script..."
+                sudo apt-get update && sudo apt-get install -y zstd
+                chmod +x ./scripts/runtime-bundles/build-agy-from-official.sh
+                ./scripts/runtime-bundles/build-agy-from-official.sh
+              }
+          fi
+
+          # 2. Download offline bundles if an offline or full build variant was chosen
+          if [[ "$VARIANT" == *"offline"* ]] || [[ "$VARIANT" == *"both"* ]]; then
+            echo "Downloading offline runtime bundles..."
+            OFFLINE_BUNDLES=(
+              "pocketdev-core-arm64-2026.09.5.tar.zst"
+              "pocketdev-claude-arm64-2026.09.1.tar.zst"
+              "pocketdev-python-arm64-2026.09.2.tar.zst"
+              "pocketdev-android-arm64-2026.09.1.tar.zst"
+              "pocketdev-dsh-arm64-2026.09.1.tar.zst"
+            )
+            for bundle in "${OFFLINE_BUNDLES[@]}"; do
+              if [ ! -f "dist/runtime-bundles/$bundle" ]; then
+                echo "Downloading $bundle..."
+                curl -fL --retry 3 --connect-timeout 30 -o "dist/runtime-bundles/$bundle" \
+                  "https://github.com/techjarves/Mobile-Harness/releases/download/runtime-2026.09.4/$bundle"
+              fi
+            done
+          fi
+
+      - name: Grant Execute Permission to Gradle Wrapper
+        run: chmod +x gradlew
+
+      - name: Compile and Assemble APK
+        run: |
+          VARIANT="${{ github.event.inputs.variant || 'onlineDebug' }}"
+          case "$VARIANT" in
+            "onlineDebug")
+              TASK="assembleOnlineDebug"
+              ;;
+            "onlineRelease")
+              TASK="assembleOnlineRelease"
+              ;;
+            "offlineDebug")
+              TASK="assembleOfflineDebug"
+              ;;
+            "assembleDebug (both online & offline)")
+              TASK="assembleDebug"
+              ;;
+            *)
+              TASK="assembleOnlineDebug"
+              ;;
+          esac
+
+          echo "Executing: ./gradlew $TASK --stacktrace"
+          ./gradlew $TASK --stacktrace
+
+      - name: Upload Compiled APKs
+        uses: actions/upload-artifact@v4
+        with:
+          name: MobileHarness-APKs
+          path: app/build/outputs/apk/**/*.apk
+          if-no-files-found: error

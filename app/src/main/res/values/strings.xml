@@ -1,0 +1,402 @@
+<resources>
+    <string name="app_name">Mobile Harness</string>
+
+    <!-- Navigation / Bottom Tabs -->
+    <string name="tab_projects">Projects</string>
+    <string name="tab_agent">Agent</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- Workspace Tabs -->
+    <string name="tab_chat">Chat</string>
+    <string name="tab_files">Files</string>
+    <string name="tab_editor">Editor</string>
+    <string name="tab_terminal">Terminal</string>
+    <string name="tab_changes">Changes</string>
+    <string name="tab_preview">Preview</string>
+
+    <!-- Code Server -->
+    <string name="code_server_title">Code Server (VS Code)</string>
+    <string name="code_server_desc">Full VS Code editor running inside your private Linux environment.</string>
+    <string name="code_server_start">Start Editor</string>
+    <string name="code_server_stop">Stop Editor</string>
+    <string name="code_server_restart">Restart</string>
+    <string name="code_server_install">Install Code Server</string>
+    <string name="code_server_installing">Installing Code Server…</string>
+    <string name="code_server_starting">Starting Code Server…</string>
+    <string name="code_server_running">Running</string>
+    <string name="code_server_stopped">Stopped</string>
+    <string name="code_server_not_installed">Code Server is not installed yet.</string>
+    <string name="code_server_open_browser">Open in external browser</string>
+    <string name="code_server_installed_success">Code Server installed successfully</string>
+    <string name="rt_install_code_server_needs_online">Code Server installation requires internet access.</string>
+
+    <!-- Common Actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_close">Close</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_test">Test</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Preferences &amp; Configuration</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_tools">Developer tools</string>
+    <string name="settings_runtime">Linux runtime</string>
+    <string name="settings_privacy">Privacy policy</string>
+    <string name="settings_privacy_desc">How local data and AI provider requests are handled</string>
+    <string name="settings_app_desc">Local AI coding workspace</string>
+
+    <!-- Theme Modes -->
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">System</string>
+    <string name="theme_dark_subtitle">Dark theme</string>
+    <string name="theme_light_subtitle">Light theme</string>
+    <string name="theme_system_subtitle">Follow system</string>
+
+    <!-- Language Selector -->
+    <string name="language_choose_title">Select Language</string>
+    <string name="language_welcome_title">Choose your language</string>
+    <string name="language_welcome_subtitle">Select your preferred language. You can change this anytime in Settings.</string>
+    <string name="language_system_default">System default</string>
+
+    <!-- Developer Tools -->
+    <string name="tools_subtitle">Core tools + %1$d optional toolchains</string>
+    <string name="tools_included">Included</string>
+    <string name="tools_installing">Installing…</string>
+    <string name="tools_removing">Removing…</string>
+    <string name="tools_remove_dialog_title">Remove %1$s?</string>
+    <string name="tools_remove_dialog_desc">This removes the toolchain and its runtime caches to free storage. Your projects and source files will not be deleted.</string>
+
+    <!-- Linux Runtime -->
+    <string name="runtime_architecture">Architecture</string>
+    <string name="runtime_environment">Environment</string>
+    <string name="runtime_active_agent">Active agent</string>
+    <string name="runtime_installed_agents">Installed agents</string>
+    <string name="runtime_clear_history">Clear terminal history</string>
+    <string name="runtime_history_cleared">Terminal history cleared</string>
+    <string name="runtime_advanced_reliability">Advanced runtime reliability</string>
+
+    <!-- Provider & Connection -->
+    <string name="provider_active_connection">Active connection</string>
+    <string name="provider_label">Provider</string>
+    <string name="provider_base_url">Base URL</string>
+    <string name="provider_model_id">Model ID</string>
+    <string name="provider_api_keys">API keys</string>
+    <string name="provider_add_key">Add key</string>
+    <string name="provider_key_name">Key name</string>
+    <string name="provider_api_key">API key</string>
+    <string name="provider_testing">Testing…</string>
+
+    <!-- Projects -->
+    <string name="projects_title">Projects</string>
+    <string name="projects_new">New project</string>
+    <string name="projects_quick_chat">Quick chat</string>
+    <string name="projects_clone">Clone repository</string>
+    <string name="projects_search">Search projects</string>
+
+    <!-- Chat / Workspace -->
+    <string name="chat_placeholder">Ask anything or describe a task…</string>
+    <string name="chat_send">Send</string>
+    <string name="chat_stop">Stop</string>
+    <string name="chat_keep_changes">Keep changes</string>
+    <string name="chat_undo_changes">Undo changes</string>
+    <string name="chat_review_changes">Review changes</string>
+    <string name="chat_no_changes">No changes</string>
+    <string name="chat_export_project">Export project</string>
+
+    <!-- Agent -->
+    <string name="agent_title">Agent</string>
+    <string name="agent_choose">Choose coding agent</string>
+    <string name="agent_google_signin">Sign in with Google</string>
+
+    <!-- Background & Runtime Onboarding -->
+    <string name="bg_setup_title">Prepare for reliable setup</string>
+    <string name="bg_setup_subtitle">Setup time depends on the toolchains you choose next. You may leave Mobile Harness in the background while it works.</string>
+    <string name="bg_step_notifications">Notifications</string>
+    <string name="bg_step_background">Background</string>
+    <string name="bg_step_task_protection">Task protection</string>
+    <string name="bg_status_required">Required</string>
+    <string name="bg_status_next">Next</string>
+    <string name="bg_status_granted">Granted</string>
+    <string name="bg_step_indicator">STEP %1$d OF %2$d</string>
+    <string name="bg_notifications_title">Task notifications</string>
+    <string name="bg_notifications_desc">See live progress and receive an alert when Claude finishes or needs your attention.</string>
+    <string name="bg_notifications_privacy">Only task progress, completion, and error notifications are sent.</string>
+    <string name="bg_notifications_allow">Allow notifications</string>
+    <string name="bg_notifications_settings">Open notification settings</string>
+    <string name="bg_notifications_skip">Continue without notifications</string>
+    <string name="bg_reliability_title">Background reliability</string>
+    <string name="bg_reliability_desc">Allow Mobile Harness to continue a task when you lock the phone or switch to another app.</string>
+    <string name="bg_reliability_privacy">You remain in control and can stop every task from its notification.</string>
+    <string name="bg_reliability_settings">Open battery settings</string>
+    <string name="bg_reliability_skip">Continue without battery exemption</string>
+    <string name="bg_protection_title">Task protection</string>
+    <string name="bg_protection_desc">Keep the CPU awake only while a visible coding task is running, then release it automatically.</string>
+    <string name="bg_protection_privacy">The screen stays off. Protection is capped at 90 minutes and stops with the task.</string>
+    <string name="bg_protection_enable">Enable and finish</string>
+    <string name="bg_setup_footer">You can change these settings later. Android may still stop exceptionally heavy work when the device is low on memory.</string>
+
+    <string name="runtime_setup_device_check_badge">DEVICE CHECK</string>
+    <string name="runtime_setup_device_ready_title">Ready to build on this phone</string>
+    <string name="runtime_setup_device_ready_desc">Your phone meets the requirements. Choose your coding tools next and Mobile Harness will handle the setup.</string>
+    <string name="runtime_setup_sys_compat">System compatibility</string>
+    <string name="runtime_setup_device_ready">Your device is ready</string>
+    <string name="runtime_setup_device_unsupported">This device is unsupported</string>
+    <string name="runtime_setup_status_ready">Ready</string>
+    <string name="runtime_setup_status_unsupported">Unsupported</string>
+    <string name="runtime_setup_memory_ram">Memory (RAM)</string>
+    <string name="runtime_setup_ram_usable">%1$s GB usable</string>
+    <string name="runtime_setup_processor">Processor</string>
+    <string name="runtime_setup_download_req">Required download</string>
+    <string name="runtime_setup_download_range">149–774 MB</string>
+    <string name="runtime_setup_download_based_on_tools">Based on the tools you select</string>
+    <string name="runtime_setup_continue_to_tools">Continue to tool setup</string>
+    <string name="runtime_setup_device_not_supported">Device not supported</string>
+    <string name="runtime_setup_change_tools_later">You can change tools later</string>
+    <string name="runtime_setup_toolchain_badge">TOOLCHAIN SETUP</string>
+    <string name="runtime_setup_choose_tools_title">Choose your tools</string>
+    <string name="runtime_setup_choose_tools_desc">Start lightweight. You can install more toolchains later from Settings.</string>
+    <string name="runtime_setup_core_runtime">Core runtime · 68.8 MB</string>
+    <string name="runtime_setup_core_runtime_download">Core runtime · 68.8 MB download</string>
+    <string name="runtime_setup_coding_agent_badge">CODING AGENT</string>
+    <string name="runtime_setup_coding_agent_note">Only the selected optional agent is downloaded. You can install or switch agents later from Settings.</string>
+    <string name="runtime_setup_optional_toolchains_badge">OPTIONAL TOOLCHAINS</string>
+    <string name="runtime_setup_install_btn">Install Mobile Harness</string>
+
+    <!-- Setup and Runtime Installation Screens -->
+    <string name="setup_mobile_harness">Set up Mobile Harness</string>
+    <string name="setup_local_badge">Local setup</string>
+    <string name="setup_build_workspace">Build your workspace</string>
+    <string name="setup_installation_progress">Installation progress</string>
+    <string name="setup_estimated_time">Estimated %1$s</string>
+    <string name="setup_time_minutes">%1$d–%2$d minutes</string>
+    <string name="setup_live_terminal">Live setup terminal</string>
+    <string name="setup_background_note">You can leave Mobile Harness in the background and follow setup from the notification.</string>
+    <string name="startup_msg_setting_up">Setting up your workspace</string>
+    <string name="startup_msg_preparing_tools">Preparing your coding tools</string>
+    <string name="startup_msg_almost_ready">Almost ready</string>
+    <string name="workspace_launch_badge">PRIVATE MOBILE WORKSPACE</string>
+    <string name="workspace_launch_title">Getting everything ready</string>
+    <string name="workspace_launch_desc">Restoring your projects and reconnecting your local coding agent.</string>
+    <string name="workspace_launch_footer">Runs locally on this device · Your project files stay private</string>
+
+    <!-- Runtime Installer Dynamic Progress Messages -->
+    <string name="runtime_msg_downloading_bundle">Downloading %1$s bundle</string>
+    <string name="runtime_msg_loading_bundle">Loading %1$s bundle</string>
+    <string name="runtime_msg_preparing_runtime">Preparing the private development runtime</string>
+    <string name="runtime_msg_verifying_unpacking">Verifying and unpacking the %1$s runtime</string>
+    <string name="runtime_msg_tools_installed">%1$s tools installed</string>
+    <string name="runtime_msg_checking_files">Checking private runtime files</string>
+    <string name="runtime_msg_preparing_bridge">Preparing the Android runtime bridge</string>
+    <string name="runtime_msg_runtime_ready">Private runtime is ready</string>
+    <string name="runtime_msg_setup_complete">Setup complete</string>
+    <string name="runtime_msg_resuming_setup">Resuming Mobile Harness setup</string>
+    <string name="runtime_msg_downloading_generic">Downloading %1$s</string>
+    <string name="runtime_msg_installing_generic">Installing %1$s</string>
+    <!-- Provider onboarding -->
+    <string name="theme_toggle">Toggle theme</string>
+    <string name="provider_setup_settings_title">AI Provider &amp; Settings</string>
+    <string name="provider_device_title">Your phone is the workspace</string>
+    <string name="provider_device_desc">Mobile Harness checks compatibility before downloading the private Linux runtime.</string>
+    <string name="provider_memory">Memory</string>
+    <string name="provider_memory_mode">%1$s GB usable · %2$s</string>
+    <string name="provider_full_mode">Full mode</string>
+    <string name="provider_lite_mode">Lite mode</string>
+    <string name="provider_unknown">Unknown</string>
+    <string name="provider_android_version">Android %1$s</string>
+    <string name="provider_security_warning">Only open projects you trust. The local Linux environment is a compatibility layer, not a hardened security sandbox.</string>
+    <string name="provider_step_of">STEP %1$d OF %2$d</string>
+    <string name="provider_secure_setup">Secure setup</string>
+    <string name="provider_connect_ai">Connect your AI</string>
+    <string name="provider_connect_ai_desc">Choose how Mobile Harness should access your coding model.</string>
+    <string name="provider_keys_secure">API keys are encrypted in Android secure storage.</string>
+    <string name="provider_continue">Continue</string>
+    <string name="provider_use_another_agent">Use another coding agent</string>
+    <string name="provider_beta">Beta</string>
+    <string name="provider_title_claude">Claude subscription</string>
+    <string name="provider_title_anthropic">Anthropic API</string>
+    <string name="provider_title_openrouter">OpenRouter</string>
+    <string name="provider_title_deepseek">DeepSeek</string>
+    <string name="provider_title_kimi">Kimi</string>
+    <string name="provider_title_opencode">OpenCode Zen</string>
+    <string name="provider_title_nvidia">NVIDIA NIM</string>
+    <string name="provider_title_custom">Custom API</string>
+    <string name="provider_subtitle_claude">Pro, Max, Team or Enterprise</string>
+    <string name="provider_subtitle_anthropic">Usage billed through Console</string>
+    <string name="provider_subtitle_openrouter">Use your OpenRouter API key</string>
+    <string name="provider_subtitle_deepseek">Use your DeepSeek API key</string>
+    <string name="provider_subtitle_anthropic_compatible">Anthropic-compatible endpoint</string>
+    <string name="provider_subtitle_opencode">Models through the OpenCode Zen gateway</string>
+    <string name="provider_subtitle_nvidia">OpenAI-compatible models hosted by NVIDIA</string>
+    <string name="provider_gateway_protocol">Gateway protocol</string>
+    <string name="provider_gateway_protocol_help">Pick the protocol your gateway speaks; DeepSeek Harness routes it directly.</string>
+    <string name="provider_models_found">Found %1$d available models.</string>
+    <string name="provider_available_models">Available models</string>
+    <string name="provider_models_count">%1$d of %2$d models</string>
+    <string name="provider_refresh_models">Refresh models</string>
+    <string name="provider_search_models">Search model name or ID</string>
+    <string name="provider_no_matching_models">No matching models</string>
+    <string name="provider_free"> FREE</string>
+    <string name="provider_encrypted_locally">Encrypted locally</string>
+    <string name="provider_endpoint_deepseek">DeepSeek Harness will connect through this API endpoint.</string>
+    <string name="provider_endpoint_translate">Mobile Harness will translate Claude Code requests for this provider.</string>
+    <string name="provider_endpoint_claude">Claude Code will connect through this API endpoint.</string>
+    <string name="provider_fixed_by">Fixed by %1$s</string>
+    <string name="provider_saved_key_placeholder">Saved securely — leave blank to keep it</string>
+    <string name="provider_enter_key">Enter your API key</string>
+    <string name="provider_saved_key_ready">A saved key is ready to use</string>
+    <string name="provider_model_name">Model name</string>
+    <string name="provider_model_help">Select an available model or enter an exact model ID.</string>
+    <string name="provider_find_models">Find available models</string>
+    <string name="provider_available_models_count">Available models (%1$d)</string>
+    <string name="provider_checking_settings">Checking API key, model, and Claude Code settings…</string>
+    <string name="provider_checking">Checking</string>
+    <string name="provider_claude_connect_desc">Connect a Claude Pro, Max, Team, or Enterprise subscription to Claude Code.</string>
+    <string name="provider_claude_step_one">1. On a computer where Claude Code is installed, run:</string>
+    <string name="provider_claude_step_two">2. Sign in to Claude and paste the generated token here.</string>
+    <string name="provider_claude_token">Claude setup token</string>
+    <string name="provider_paste_token">Paste token</string>
+    <string name="provider_saved_token_ready">A saved subscription token is ready to use</string>
+    <string name="provider_toggle_token_visibility">Toggle token visibility</string>
+    <string name="provider_save_continue">Save and continue</string>
+    <string name="agent_choose_title">Choose coding agent</string>
+    <string name="agent_choose_desc">Switch if the current service is unavailable. Your existing login and credentials stay saved.</string>
+    <string name="agent_recommended">Recommended</string>
+    <string name="agent_title_claude">Claude Code</string>
+    <string name="agent_title_deepseek">DeepSeek Harness</string>
+    <string name="agent_title_antigravity">Antigravity CLI</string>
+    <string name="agent_subtitle_claude">Anthropic’s coding agent · broad provider support</string>
+    <string name="agent_subtitle_deepseek">Official DeepSeek coding agent · API-key providers</string>
+    <string name="agent_subtitle_antigravity">Google’s official coding agent · Google account</string>
+    <string name="projects_hero_title">Build from your phone</string><string name="projects_hero_desc">Chat, review changes, and preview your project.</string><string name="projects_quick_project">Quick project</string><string name="projects_new_project">New project</string><string name="projects_bring_existing">Bring an existing project</string><string name="projects_import_expanded">Import files or clone complete Git history</string><string name="projects_import_sources">ZIP file, Git repository, or GitHub</string><string name="projects_your_projects">Your projects</string><string name="projects_empty_title">No projects yet</string><string name="projects_empty_desc">Create a named project or start instantly with a Quick Project.</string><string name="projects_terminal">Terminal</string>
+    <string name="agent_screen_title">AI Agent</string><string name="agent_status_testing">Testing…</string><string name="agent_status_attention">Attention</string><string name="agent_status_online">Online</string><string name="agent_status_not_tested">Not tested</string><string name="agent_provider_title">AI provider</string><string name="agent_custom_api_settings">Custom API settings</string><string name="agent_endpoint_protocol">Endpoint &amp; protocol</string><string name="agent_model_access">Model &amp; access</string><string name="agent_discovering">Discovering…</string><string name="agent_discover_models">Discover models</string><string name="agent_models_count">%1$d models</string><string name="agent_ai_model">AI model</string><string name="agent_select_model">Select or type a model ID</string><string name="agent_subscription_token">Subscription token</string><string name="agent_credentials">Credentials</string><string name="agent_test_connection">Test connection</string><string name="agent_runtime_updates">Runtime updates</string><string name="agent_updates_current">Installed agents stay current</string><string name="agent_check_updates">Check updates</string><string name="agent_security_footer">API keys encrypted in Android secure storage · Terminal is accessible from any project</string><string name="agent_approval_footer">Automatic tool approval · Runs inside the private Linux workspace</string>
+    <string name="projects_importing">Importing…</string><string name="projects_zip_file">ZIP file</string><string name="projects_cloning">Cloning…</string><string name="projects_git_url">Git URL</string><string name="projects_github_account">GitHub · @%1$s</string><string name="projects_connect_github">Connect GitHub</string><string name="projects_browse_repositories">Browse public and private repositories</string><string name="projects_sign_in_repositories">Sign in to access your repositories</string>
+    <string name="agent_not_installed">%1$s is not installed</string><string name="agent_install_description">Install its %1$s agent package to use it with your existing projects.</string><string name="agent_install_action">Install %1$s</string>
+    <string name="agent_installing_binary">Installing agent binary…</string><string name="chat_welcome">Hi! Tell me what you want to build or change.</string><string name="chat_message_agent">Message %1$s…</string><string name="workspace_files">Files</string><string name="workspace_no_files">No files yet</string><string name="workspace_no_files_description">Ask your coding agent to create something in this project.</string><string name="workspace_project_terminal">Project Terminal</string><string name="workspace_terminal_ready">Mobile Harness Terminal ready.\nType a bash command below or tap a quick command chip above.</string><string name="workspace_preview_url">Preview URL</string><string name="workspace_preview_not_running">Preview not running</string><string name="workspace_preview_not_running_description">Enter a localhost URL above, or start a local web server in the project Terminal.</string>
+    <string name="agent_connection_verified">%1$s connection verified.</string><string name="agent_status_verified">Verified</string>
+    <string name="chat_attach_files">Attach files</string><string name="chat_take_photo">Take photo</string><string name="chat_choose_files">Choose files</string><string name="chat_camera_unavailable">No camera app is available</string>
+    <string name="export_busy">Stop the running task, terminal command, build, or file save before exporting.</string>
+    <string name="export_success">%1$s exported</string>
+    <string name="export_failed">Export failed: %1$s</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="file_saved">File saved</string>
+    <string name="file_save_failed">The file could not be saved</string>
+    <string name="select_files">Select files</string>
+    <string name="select_all">Select all</string>
+    <string name="collapse_all">Collapse all</string>
+    <string name="export_project_zip">Export project as ZIP</string>
+    <string name="collapse_folder">Collapse folder</string>
+    <string name="expand_folder">Expand folder</string>
+    <string name="creating_zip">Creating ZIP…</string>
+    <string name="download_zip">Download ZIP</string>
+    <string name="unsaved_changes">Unsaved changes</string>
+    <string name="unsaved_changes_description">Save your changes before leaving this file?</string>
+    <string name="save">Save</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+    <string name="file_changed_title">File changed</string>
+    <string name="file_changed_description">This file changed outside the editor. Reload it to avoid overwriting newer changes.</string>
+    <string name="reload">Reload</string>
+    <string name="cancel">Cancel</string>
+    <string name="close_file">Close file</string>
+    <string name="save_file">Save file</string>
+    <string name="copy_file_contents">Copy file contents</string>
+    <string name="edit_file">Edit file</string>
+    <string name="no_content">No content</string>
+    <string name="file_could_not_read">The file could not be read.</string>
+    <string name="file_binary_description">Binary files cannot be displayed or edited.</string>
+    <string name="file_invalid_utf8_description">Only valid UTF-8 text files can be edited.</string>
+    <string name="file_unsafe_description">This protected or unsafe path cannot be opened.</string>
+    <string name="file_too_large_description">Files larger than 512 KB are previewed and remain read-only.</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="find_in_file">Find in file</string>
+    <string name="find">Find</string>
+    <string name="previous_match">Previous match</string>
+    <string name="next_match">Next match</string>
+    <string name="unsaved">Unsaved</string>
+    <string name="saved">Saved</string>
+    <string name="android_dashboard">Android dashboard</string>
+    <string name="android_build_tab">Build</string><string name="android_logcat_tab">Logcat</string><string name="android_health_tab">Health</string>
+    <string name="android_ready">Ready for Android development</string><string name="close">Close</string><string name="refresh">Refresh</string><string name="more_options">More options</string>
+    <string name="force_rebuild">Force rebuild</string><string name="clean_project">Clean project</string><string name="build_progress">Build progress</string>
+    <string name="android_stage_idle">Ready</string><string name="android_stage_preparing">Preparing</string><string name="android_stage_resolving">Resolving</string><string name="android_stage_compiling">Compiling</string><string name="android_stage_resources">Resources</string><string name="android_stage_packaging">Packaging</string><string name="android_stage_finding_apk">Finding APK</string><string name="android_stage_installing">Installing</string><string name="android_stage_launching">Launching</string><string name="android_stage_complete">Complete</string><string name="android_stage_failed">Failed</string><string name="android_stage_cancelling">Cancelling</string><string name="android_stage_cancelled">Cancelled</string>
+    <string name="android_tools_required">Android development tools are required before building.</string><string name="install_android_tools">Install Android tools</string>
+    <string name="build">Build</string><string name="install">Install</string><string name="run">Run</string><string name="build_and_run">Build &amp; run</string><string name="cancel_operation">Cancel operation</string>
+    <string name="build_issues">Build issues</string><string name="unknown_package">Unknown package</string><string name="installed">Installed</string><string name="not_installed">Not installed</string><string name="stale_apk_warning">Source files changed after this APK was built. You can still use it, or build a current APK.</string>
+    <string name="apk_version_info">Version %1$s (%2$s) · min SDK %3$s · target SDK %4$s</string><string name="share">Share</string><string name="save_copy">Save copy</string><string name="copy_path">Copy path</string><string name="app_info">App info</string><string name="uninstall">Uninstall</string>
+    <string name="show_build_details">Show build details</string><string name="hide_build_details">Hide build details</string><string name="copy_log">Copy log</string>
+    <string name="logcat_access_required">Logcat access required</string><string name="logcat_access_description">Grant the development log permission once with ADB, then refresh this screen.</string><string name="copy_command">Copy command</string><string name="search_logs">Search logs</string><string name="pause">Pause</string><string name="resume">Resume</string><string name="clear">Clear</string>
+    <string name="project_health">Project health</string><string name="fix">Fix</string>
+    <string name="android_screen_title">Android</string>
+    <string name="android_ready_to_build">Ready to build</string>
+    <string name="android_ready_to_rebuild">Ready to rebuild</string>
+    <string name="android_ready_to_run">Ready to run</string>
+    <string name="android_ready_to_install">Ready to install</string>
+    <string name="android_build_failed_title">Build failed</string>
+    <string name="android_no_apk_description">Create a debug APK to run this project.</string>
+    <string name="android_source_changed_short">Source changed since the last build.</string>
+    <string name="android_build_current_installed">Build is up to date · Installed on this device</string>
+    <string name="android_build_current_not_installed">Build is up to date · Ready to install</string>
+    <string name="run_app">Run app</string>
+    <string name="android_build_again">Build again</string>
+    <string name="android_build_output">Build output</string>
+    <string name="android_view">View</string>
+    <string name="android_completed_in">Completed in %1$s</string>
+    <string name="android_build_in_progress">Running for %1$s</string>
+    <string name="android_no_build_yet">No build yet</string>
+    <string name="android_no_build_output">No build output yet.</string>
+    <string name="android_checking_health">Checking project…</string>
+    <string name="android_health_needs_attention">%1$d checks need attention</string>
+    <string name="android_health_not_checked">Tap to check the project</string>
+    <string name="android_health_checks_passed">%1$d checks passed</string>
+    <string name="project_type">Project type</string>
+    <string name="project_type_general">General</string>
+    <string name="project_type_general_desc">Any coding project</string>
+    <string name="project_type_compose">Compose</string>
+    <string name="project_type_compose_desc">Modern Android UI</string>
+    <string name="project_type_xml">XML</string>
+    <string name="project_type_xml_desc">Classic Android UI</string>
+    <string name="android_estimated_remaining">About %1$s remaining</string>
+    <string name="android_finishing_build">Finishing build…</string>
+    <string name="android_estimating_build">Learning build time…</string>
+    <string name="android_usually_takes">Usually about %1$s</string>
+    <string name="diagnostics_title">Developer diagnostics</string>
+    <string name="diagnostics_subtitle">Performance, processes, and runtime storage</string>
+    <string name="diagnostics_refresh">Refresh diagnostics</string>
+    <string name="diagnostics_memory">Memory</string>
+    <string name="diagnostics_app_memory">App memory</string>
+    <string name="diagnostics_java_heap">Java heap</string>
+    <string name="diagnostics_processes">Active processes</string>
+    <string name="diagnostics_no_processes">No development process is running</string>
+    <string name="diagnostics_stop_inactive">Stop inactive processes</string>
+    <string name="diagnostics_buffers">In-app buffers</string>
+    <string name="diagnostics_messages">Chat messages</string>
+    <string name="diagnostics_live_activity">Live activity rows</string>
+    <string name="diagnostics_terminal_buffer">Terminal text</string>
+    <string name="diagnostics_build_log">Build log</string>
+    <string name="diagnostics_logcat_lines">Log lines</string>
+    <string name="diagnostics_file_entries">Loaded file entries</string>
+    <string name="diagnostics_runtime_cache">Runtime output cache</string>
+    <string name="diagnostics_cached_output">Cached output</string>
+    <string name="diagnostics_clear_cache">Clear disposable output</string>
+    <string name="diagnostics_cache_disabled">Available after active work finishes.</string>
+    <string name="diagnostics_recent_exit">Recent app issue</string>
+    <string name="diagnostics_no_recent_exit">No recent crash or ANR recorded</string>
+    <string name="diagnostics_inactive_stopped">Inactive processes stopped</string>
+    <string name="diagnostics_cache_busy">Wait for active work to finish before clearing output</string>
+    <string name="diagnostics_cache_cleared">Disposable runtime output cleared</string>
+</resources>

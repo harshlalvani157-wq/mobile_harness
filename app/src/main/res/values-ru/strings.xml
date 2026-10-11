@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Mobile Harness</string>
+
+    <!-- Navigation / Bottom Tabs -->
+    <string name="tab_projects">Проекты</string>
+    <string name="tab_agent">Агент</string>
+    <string name="tab_settings">Настройки</string>
+
+    <!-- Workspace Tabs -->
+    <string name="tab_chat">Чат</string>
+    <string name="tab_files">Файлы</string>
+    <string name="tab_terminal">Терминал</string>
+    <string name="tab_changes">Изменения</string>
+    <string name="tab_preview">Превью</string>
+
+    <!-- Common Actions -->
+    <string name="action_ok">ОК</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_remove">Убрать</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_edit">Редактировать</string>
+    <string name="action_close">Закрыть</string>
+    <string name="action_back">Назад</string>
+    <string name="action_next">Далее</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_retry">Повторить</string>
+    <string name="action_clear">Очистить</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_test">Проверить</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_subtitle">Параметры и конфигурация</string>
+    <string name="settings_appearance">Внешний вид</string>
+    <string name="settings_language">Язык</string>
+    <string name="settings_tools">Инструменты разработки</string>
+    <string name="settings_runtime">Среда Linux</string>
+    <string name="settings_privacy">Политика конфиденциальности</string>
+    <string name="settings_privacy_desc">Как обрабатываются локальные данные и запросы к ИИ</string>
+    <string name="settings_app_desc">Локальная среда разработки с ИИ</string>
+
+    <!-- Theme Modes -->
+    <string name="theme_dark">Темная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_dark_subtitle">Темная тема</string>
+    <string name="theme_light_subtitle">Светлая тема</string>
+    <string name="theme_system_subtitle">Как в системе</string>
+
+    <!-- Language Selector -->
+    <string name="language_choose_title">Выберите язык</string>
+    <string name="language_welcome_title">Выберите язык</string>
+    <string name="language_welcome_subtitle">Выберите предпочитаемый язык. Вы можете изменить его в любое время в Настройках.</string>
+    <string name="language_system_default">По умолчанию в системе</string>
+
+    <!-- Developer Tools -->
+    <string name="tools_subtitle">Основные инструменты + %1$d дополнительных</string>
+    <string name="tools_included">Включено</string>
+    <string name="tools_installing">Установка…</string>
+    <string name="tools_removing">Удаление…</string>
+    <string name="tools_remove_dialog_title">Удалить %1$s?</string>
+    <string name="tools_remove_dialog_desc">Это удалит цепочку инструментов и ее кэш для освобождения места. Ваши проекты и исходные файлы затронуты не будут.</string>
+
+    <!-- Linux Runtime -->
+    <string name="runtime_architecture">Архитектура</string>
+    <string name="runtime_environment">Окружение</string>
+    <string name="runtime_active_agent">Активный агент</string>
+    <string name="runtime_installed_agents">Установленные агенты</string>
+    <string name="runtime_clear_history">Очистить историю терминала</string>
+    <string name="runtime_history_cleared">История терминала очищена</string>
+    <string name="runtime_advanced_reliability">Расширенная надежность среды</string>
+
+    <!-- Provider & Connection -->
+    <string name="provider_active_connection">Активное подключение</string>
+    <string name="provider_label">Провайдер</string>
+    <string name="provider_base_url">Базовый URL</string>
+    <string name="provider_model_id">ID модели</string>
+    <string name="provider_api_keys">Ключи API</string>
+    <string name="provider_add_key">Добавить ключ</string>
+    <string name="provider_key_name">Название ключа</string>
+    <string name="provider_api_key">Ключ API</string>
+    <string name="provider_testing">Тестирование…</string>
+
+    <!-- Projects -->
+    <string name="projects_title">Проекты</string>
+    <string name="projects_new">Новый проект</string>
+    <string name="projects_quick_chat">Быстрый чат</string>
+    <string name="projects_clone">Клонировать репозиторий</string>
+    <string name="projects_search">Поиск проектов</string>
+
+    <!-- Chat / Workspace -->
+    <string name="chat_placeholder">Задайте вопрос или опишите задачу…</string>
+    <string name="chat_send">Отправить</string>
+    <string name="chat_stop">Остановить</string>
+    <string name="chat_keep_changes">Сохранить изменения</string>
+    <string name="chat_undo_changes">Отменить изменения</string>
+    <string name="chat_review_changes">Просмотреть изменения</string>
+    <string name="chat_no_changes">Нет изменений</string>
+    <string name="chat_export_project">Экспортировать проект</string>
+
+    <!-- Agent -->
+    <string name="agent_title">Агент</string>
+    <string name="agent_choose">Выбрать агента разработки</string>
+    <string name="agent_google_signin">Войти через Google</string>
+
+    <!-- Background & Runtime Onboarding -->
+    <string name="bg_setup_title">Подготовка к надежной настройке</string>
+    <string name="bg_setup_subtitle">Время настройки зависит от выбранных инструментов. Вы можете оставить Mobile Harness в фоновом режиме во время работы.</string>
+    <string name="bg_step_notifications">Уведомления</string>
+    <string name="bg_step_background">Фоновый режим</string>
+    <string name="bg_step_task_protection">Защита задач</string>
+    <string name="bg_status_required">Обязательно</string>
+    <string name="bg_status_next">Далее</string>
+    <string name="bg_status_granted">Разрешено</string>
+    <string name="bg_step_indicator">ШАГ %1$d ИЗ %2$d</string>
+    <string name="bg_notifications_title">Уведомления о задачах</string>
+    <string name="bg_notifications_desc">Следите за прогрессом в реальном времени и получайте оповещения, когда Claude завершит работу или потребуется ваше внимание.</string>
+    <string name="bg_notifications_privacy">Отправляются только уведомления о ходе выполнения, завершении и ошибках.</string>
+    <string name="bg_notifications_allow">Разрешить уведомления</string>
+    <string name="bg_notifications_settings">Открыть настройки уведомлений</string>
+    <string name="bg_notifications_skip">Продолжить без уведомлений</string>
+    <string name="bg_reliability_title">Надежность в фоне</string>
+    <string name="bg_reliability_desc">Позвольте Mobile Harness продолжать выполнение задачи при блокировке экрана или переключении на другое приложение.</string>
+    <string name="bg_reliability_privacy">Вы сохраняете контроль и можете остановить любую задачу прямо из уведомления.</string>
+    <string name="bg_reliability_settings">Открыть настройки батареи</string>
+    <string name="bg_reliability_skip">Продолжить без исключения батареи</string>
+    <string name="bg_protection_title">Защита задач</string>
+    <string name="bg_protection_desc">Поддерживайте активность процессора только во время выполнения задачи, затем освобождайте его автоматически.</string>
+    <string name="bg_protection_privacy">Экран остается выключенным. Защита ограничена 90 минутами и останавливается вместе с задачей.</string>
+    <string name="bg_protection_enable">Включить и завершить</string>
+    <string name="bg_setup_footer">Вы сможете изменить эти настройки позже. Android может остановить ресурсоемкие задачи при нехватке памяти.</string>
+
+    <string name="runtime_setup_device_check_badge">ПРОВЕРКА УСТРОЙСТВА</string>
+    <string name="runtime_setup_device_ready_title">Готово к сборке на этом телефоне</string>
+    <string name="runtime_setup_device_ready_desc">Ваш телефон соответствует требованиям. Выберите инструменты разработки, и Mobile Harness выполнит настройку.</string>
+    <string name="runtime_setup_sys_compat">Совместимость системы</string>
+    <string name="runtime_setup_device_ready">Устройство готово</string>
+    <string name="runtime_setup_device_unsupported">Устройство не поддерживается</string>
+    <string name="runtime_setup_status_ready">Готово</string>
+    <string name="runtime_setup_status_unsupported">Не поддерживается</string>
+    <string name="runtime_setup_memory_ram">Память (RAM)</string>
+    <string name="runtime_setup_ram_usable">%1$s ГБ доступно</string>
+    <string name="runtime_setup_processor">Процессор</string>
+    <string name="runtime_setup_download_req">Необходимо загрузить</string>
+    <string name="runtime_setup_download_range">149–774 МБ</string>
+    <string name="runtime_setup_download_based_on_tools">В зависимости от выбранных инструментов</string>
+    <string name="runtime_setup_continue_to_tools">Перейти к выбору инструментов</string>
+    <string name="runtime_setup_device_not_supported">Устройство не поддерживается</string>
+    <string name="runtime_setup_change_tools_later">Вы сможете изменить инструменты позже</string>
+    <string name="runtime_setup_toolchain_badge">НАСТРОЙКА ИНСТРУМЕНТОВ</string>
+    <string name="runtime_setup_choose_tools_title">Выберите инструменты</string>
+    <string name="runtime_setup_choose_tools_desc">Начните с базового набора. Вы сможете установить дополнительные инструменты позже в Настройках.</string>
+    <string name="runtime_setup_core_runtime">Базовая среда · 68.8 МБ</string>
+    <string name="runtime_setup_core_runtime_download">Базовая среда · Загрузка 68.8 МБ</string>
+    <string name="runtime_setup_coding_agent_badge">АГЕНТ РАЗРАБОТКИ</string>
+    <string name="runtime_setup_coding_agent_note">Загружается только выбранный агент. Вы сможете изменить или установить других агентов позже в Настройках.</string>
+    <string name="runtime_setup_optional_toolchains_badge">ДОПОЛНИТЕЛЬНЫЕ ИНСТРУМЕНТЫ</string>
+    <string name="runtime_setup_install_btn">Установить Mobile Harness</string>
+
+    <!-- Setup and Runtime Installation Screens -->
+    <string name="setup_mobile_harness">Настройка Mobile Harness</string>
+    <string name="setup_local_badge">Локальная установка</string>
+    <string name="setup_build_workspace">Создайте рабочую область</string>
+    <string name="setup_installation_progress">Прогресс установки</string>
+    <string name="setup_estimated_time">Ориентировочно %1$s</string>
+    <string name="setup_time_minutes">%1$d–%2$d минут</string>
+    <string name="setup_live_terminal">Терминал установки в реальном времени</string>
+    <string name="setup_background_note">Вы можете свернуть Mobile Harness и следить за настройкой в уведомлении.</string>
+    <string name="startup_msg_setting_up">Настройка рабочей области</string>
+    <string name="startup_msg_preparing_tools">Подготовка инструментов разработки</string>
+    <string name="startup_msg_almost_ready">Почти готово</string>
+    <string name="workspace_launch_badge">ЛИЧНАЯ МОБИЛЬНАЯ РАБОЧАЯ ОБЛАСТЬ</string>
+    <string name="workspace_launch_title">Подготовка всех компонентов</string>
+    <string name="workspace_launch_desc">Восстановление проектов и переподключение локального агента разработки.</string>
+    <string name="workspace_launch_footer">Работает локально на этом устройстве · Файлы проекта остаются конфиденциальными</string>
+
+    <!-- Runtime Installer Dynamic Progress Messages -->
+    <string name="runtime_msg_downloading_bundle">Загрузка пакета %1$s</string>
+    <string name="runtime_msg_loading_bundle">Загрузка пакета %1$s</string>
+    <string name="runtime_msg_preparing_runtime">Подготовка приватной среды разработки</string>
+    <string name="runtime_msg_verifying_unpacking">Проверка и распаковка среды %1$s</string>
+    <string name="runtime_msg_tools_installed">Инструменты %1$s установлены</string>
+    <string name="runtime_msg_checking_files">Проверка файлов приватной среды</string>
+    <string name="runtime_msg_preparing_bridge">Подготовка моста среды Android</string>
+    <string name="runtime_msg_runtime_ready">Приватная среда готова</string>
+    <string name="runtime_msg_setup_complete">Настройка завершена</string>
+    <string name="runtime_msg_resuming_setup">Возобновление настройки Mobile Harness</string>
+    <string name="runtime_msg_downloading_generic">Загрузка %1$s</string>
+    <string name="runtime_msg_installing_generic">Установка %1$s</string>
+    <string name="theme_toggle">Сменить тему</string><string name="provider_setup_settings_title">Провайдер ИИ и настройки</string><string name="provider_device_title">Ваш телефон — рабочая среда</string><string name="provider_device_desc">Mobile Harness проверит совместимость перед загрузкой частной среды Linux.</string><string name="provider_memory">Память</string><string name="provider_memory_mode">Доступно %1$s ГБ · %2$s</string><string name="provider_full_mode">Полный режим</string><string name="provider_lite_mode">Лёгкий режим</string><string name="provider_unknown">Неизвестно</string><string name="provider_android_version">Android %1$s</string><string name="provider_security_warning">Открывайте только доверенные проекты. Локальная среда Linux — это слой совместимости, а не защищённая песочница.</string>
+    <string name="provider_step_of">ШАГ %1$d ИЗ %2$d</string><string name="provider_secure_setup">Безопасная настройка</string><string name="provider_connect_ai">Подключите ИИ</string><string name="provider_connect_ai_desc">Выберите, как Mobile Harness будет обращаться к модели для программирования.</string><string name="provider_keys_secure">Ключи API шифруются в защищённом хранилище Android.</string><string name="provider_continue">Продолжить</string><string name="provider_use_another_agent">Использовать другого агента</string><string name="provider_beta">Бета</string>
+    <string name="provider_title_claude">Подписка Claude</string><string name="provider_title_anthropic">Anthropic API</string><string name="provider_title_openrouter">OpenRouter</string><string name="provider_title_deepseek">DeepSeek</string><string name="provider_title_kimi">Kimi</string><string name="provider_title_opencode">OpenCode Zen</string><string name="provider_title_nvidia">NVIDIA NIM</string><string name="provider_title_custom">Свой API</string><string name="provider_subtitle_claude">Pro, Max, Team или Enterprise</string><string name="provider_subtitle_anthropic">Оплата использования через Console</string><string name="provider_subtitle_openrouter">Используйте ключ API OpenRouter</string><string name="provider_subtitle_deepseek">Используйте ключ API DeepSeek</string><string name="provider_subtitle_anthropic_compatible">Эндпоинт, совместимый с Anthropic</string><string name="provider_subtitle_opencode">Модели через шлюз OpenCode Zen</string><string name="provider_subtitle_nvidia">Совместимые с OpenAI модели от NVIDIA</string>
+    <string name="provider_gateway_protocol">Протокол шлюза</string><string name="provider_gateway_protocol_help">Выберите протокол шлюза; DeepSeek Harness направит его напрямую.</string><string name="provider_models_found">Найдено доступных моделей: %1$d.</string><string name="provider_available_models">Доступные модели</string><string name="provider_models_count">%1$d из %2$d моделей</string><string name="provider_refresh_models">Обновить модели</string><string name="provider_search_models">Поиск по названию или ID</string><string name="provider_no_matching_models">Подходящих моделей нет</string><string name="provider_free"> БЕСПЛАТНО</string><string name="provider_encrypted_locally">Зашифровано локально</string>
+    <string name="provider_endpoint_deepseek">DeepSeek Harness подключится через этот эндпоинт API.</string><string name="provider_endpoint_translate">Mobile Harness преобразует запросы Claude Code для этого провайдера.</string><string name="provider_endpoint_claude">Claude Code подключится через этот эндпоинт API.</string><string name="provider_fixed_by">Задано провайдером %1$s</string><string name="provider_saved_key_placeholder">Надёжно сохранён — оставьте пустым, чтобы не менять</string><string name="provider_enter_key">Введите ключ API</string><string name="provider_saved_key_ready">Сохранённый ключ готов к использованию</string><string name="provider_model_name">Название модели</string><string name="provider_model_help">Выберите доступную модель или введите точный ID.</string><string name="provider_find_models">Найти доступные модели</string><string name="provider_available_models_count">Доступные модели (%1$d)</string><string name="provider_checking_settings">Проверка ключа API, модели и настроек Claude Code…</string><string name="provider_checking">Проверка</string>
+    <string name="provider_claude_connect_desc">Подключите подписку Claude Pro, Max, Team или Enterprise к Claude Code.</string><string name="provider_claude_step_one">1. На компьютере с установленным Claude Code выполните:</string><string name="provider_claude_step_two">2. Войдите в Claude и вставьте созданный токен здесь.</string><string name="provider_claude_token">Токен настройки Claude</string><string name="provider_paste_token">Вставьте токен</string><string name="provider_saved_token_ready">Сохранённый токен подписки готов к использованию</string><string name="provider_toggle_token_visibility">Показать или скрыть токен</string><string name="provider_save_continue">Сохранить и продолжить</string>
+    <string name="agent_choose_title">Выберите агента</string><string name="agent_choose_desc">Смените агента, если текущий сервис недоступен. Данные входа и учётные данные сохранятся.</string><string name="agent_recommended">Рекомендуется</string><string name="agent_title_claude">Claude Code</string><string name="agent_title_deepseek">DeepSeek Harness</string><string name="agent_title_antigravity">Antigravity CLI</string><string name="agent_subtitle_claude">Агент Anthropic · широкая поддержка провайдеров</string><string name="agent_subtitle_deepseek">Официальный агент DeepSeek · провайдеры с ключами API</string><string name="agent_subtitle_antigravity">Официальный агент Google · аккаунт Google</string>
+    <string name="projects_hero_title">Разрабатывайте на телефоне</string><string name="projects_hero_desc">Общайтесь, проверяйте изменения и просматривайте проект.</string><string name="projects_quick_project">Быстрый проект</string><string name="projects_new_project">Новый проект</string><string name="projects_bring_existing">Добавить существующий проект</string><string name="projects_import_expanded">Импортируйте файлы или клонируйте полную историю Git</string><string name="projects_import_sources">ZIP-файл, репозиторий Git или GitHub</string><string name="projects_your_projects">Ваши проекты</string><string name="projects_empty_title">Проектов пока нет</string><string name="projects_empty_desc">Создайте именованный проект или сразу начните с быстрого проекта.</string><string name="projects_terminal">Терминал</string>
+    <string name="agent_screen_title">ИИ-агент</string><string name="agent_status_testing">Проверка…</string><string name="agent_status_attention">Требует внимания</string><string name="agent_status_online">В сети</string><string name="agent_status_not_tested">Не проверено</string><string name="agent_provider_title">Провайдер ИИ</string><string name="agent_custom_api_settings">Настройки своего API</string><string name="agent_endpoint_protocol">Эндпоинт и протокол</string><string name="agent_model_access">Модель и доступ</string><string name="agent_discovering">Поиск…</string><string name="agent_discover_models">Найти модели</string><string name="agent_models_count">Моделей: %1$d</string><string name="agent_ai_model">Модель ИИ</string><string name="agent_select_model">Выберите или введите ID модели</string><string name="agent_subscription_token">Токен подписки</string><string name="agent_credentials">Учётные данные</string><string name="agent_test_connection">Проверить подключение</string><string name="agent_runtime_updates">Обновления среды</string><string name="agent_updates_current">Установленные агенты остаются актуальными</string><string name="agent_check_updates">Проверить обновления</string><string name="agent_security_footer">Ключи API зашифрованы в защищённом хранилище Android · Терминал доступен из любого проекта</string><string name="agent_approval_footer">Автоматическое одобрение инструментов · Работает в частной среде Linux</string>
+    <string name="projects_importing">Импорт…</string><string name="projects_zip_file">ZIP-файл</string><string name="projects_cloning">Клонирование…</string><string name="projects_git_url">URL Git</string><string name="projects_github_account">GitHub · @%1$s</string><string name="projects_connect_github">Подключить GitHub</string><string name="projects_browse_repositories">Просмотр публичных и приватных репозиториев</string><string name="projects_sign_in_repositories">Войдите для доступа к репозиториям</string>
+    <string name="agent_not_installed">%1$s не установлен</string><string name="agent_install_description">Установите пакет агента размером %1$s, чтобы использовать его с существующими проектами.</string><string name="agent_install_action">Установить %1$s</string>
+    <string name="agent_installing_binary">Установка бинарного файла агента…</string><string name="chat_welcome">Здравствуйте! Расскажите, что вы хотите создать или изменить.</string><string name="chat_message_agent">Сообщение для %1$s…</string><string name="workspace_files">Файлы</string><string name="workspace_no_files">Файлов пока нет</string><string name="workspace_no_files_description">Попросите вашего агента создать что-нибудь в этом проекте.</string><string name="workspace_project_terminal">Терминал проекта</string><string name="workspace_terminal_ready">Терминал Mobile Harness готов.\nВведите команду bash ниже или нажмите быструю команду выше.</string><string name="workspace_preview_url">URL предпросмотра</string><string name="workspace_preview_not_running">Предпросмотр не запущен</string><string name="workspace_preview_not_running_description">Введите URL localhost выше или запустите локальный веб-сервер в терминале проекта.</string>
+    <string name="agent_connection_verified">Подключение к %1$s проверено.</string><string name="agent_status_verified">Проверено</string>
+    <string name="chat_attach_files">Прикрепить файлы</string><string name="chat_take_photo">Сделать фото</string><string name="chat_choose_files">Выбрать файлы</string><string name="chat_camera_unavailable">Нет доступного приложения камеры</string>
+    <string name="export_busy">Остановите задачу, терминал, сборку или сохранение перед экспортом.</string><string name="export_success">%1$s экспортирован</string><string name="export_failed">Ошибка экспорта: %1$s</string><string name="unknown_error">Неизвестная ошибка</string><string name="file_saved">Файл сохранён</string><string name="file_save_failed">Не удалось сохранить файл</string><string name="select_files">Выбрать файлы</string><string name="select_all">Выбрать всё</string><string name="collapse_all">Свернуть всё</string><string name="export_project_zip">Экспортировать проект в ZIP</string><string name="collapse_folder">Свернуть папку</string><string name="expand_folder">Развернуть папку</string><string name="creating_zip">Создание ZIP…</string><string name="download_zip">Скачать ZIP</string><string name="unsaved_changes">Несохранённые изменения</string><string name="unsaved_changes_description">Сохранить изменения перед выходом?</string><string name="save">Сохранить</string><string name="discard">Отбросить</string><string name="keep_editing">Продолжить редактирование</string><string name="file_changed_title">Файл изменён</string><string name="file_changed_description">Файл изменился вне редактора. Перезагрузите его, чтобы не перезаписать новые изменения.</string><string name="reload">Перезагрузить</string><string name="cancel">Отмена</string><string name="close_file">Закрыть файл</string><string name="save_file">Сохранить файл</string><string name="copy_file_contents">Копировать содержимое</string><string name="edit_file">Редактировать файл</string><string name="no_content">Нет содержимого</string><string name="file_could_not_read">Не удалось прочитать файл.</string><string name="file_binary_description">Двоичные файлы нельзя просматривать или редактировать.</string><string name="file_invalid_utf8_description">Можно редактировать только корректные текстовые файлы UTF-8.</string><string name="file_unsafe_description">Этот защищённый или небезопасный путь нельзя открыть.</string><string name="file_too_large_description">Файлы больше 512 КБ доступны только для предварительного просмотра.</string><string name="undo">Отменить</string><string name="redo">Повторить</string><string name="find_in_file">Найти в файле</string><string name="find">Найти</string><string name="previous_match">Предыдущее совпадение</string><string name="next_match">Следующее совпадение</string><string name="unsaved">Не сохранено</string><string name="saved">Сохранено</string>
+<string name="android_dashboard">Панель Android</string><string name="android_build_tab">Сборка</string><string name="android_logcat_tab">Logcat</string><string name="android_health_tab">Проверка</string><string name="android_ready">Готово к разработке Android</string><string name="close">Закрыть</string><string name="refresh">Обновить</string><string name="more_options">Другие параметры</string><string name="force_rebuild">Принудительная сборка</string><string name="clean_project">Очистить проект</string><string name="build_progress">Ход сборки</string><string name="android_stage_idle">Готово</string><string name="android_stage_preparing">Подготовка</string><string name="android_stage_resolving">Зависимости</string><string name="android_stage_compiling">Компиляция</string><string name="android_stage_resources">Ресурсы</string><string name="android_stage_packaging">Упаковка</string><string name="android_stage_finding_apk">Поиск APK</string><string name="android_stage_installing">Установка</string><string name="android_stage_launching">Запуск</string><string name="android_stage_complete">Завершено</string><string name="android_stage_failed">Ошибка</string><string name="android_stage_cancelling">Отмена</string><string name="android_stage_cancelled">Отменено</string><string name="android_tools_required">Для сборки необходимы инструменты разработки Android.</string><string name="install_android_tools">Установить инструменты Android</string><string name="build">Собрать</string><string name="install">Установить</string><string name="run">Запустить</string><string name="build_and_run">Собрать и запустить</string><string name="cancel_operation">Отменить операцию</string><string name="build_issues">Проблемы сборки</string><string name="unknown_package">Неизвестный пакет</string><string name="installed">Установлено</string><string name="not_installed">Не установлено</string><string name="stale_apk_warning">Исходники изменились после создания APK. Можно использовать его или собрать актуальный.</string><string name="apk_version_info">Версия %1$s (%2$s) · мин. SDK %3$s · целевой SDK %4$s</string><string name="share">Поделиться</string><string name="save_copy">Сохранить копию</string><string name="copy_path">Копировать путь</string><string name="app_info">О приложении</string><string name="uninstall">Удалить</string><string name="show_build_details">Показать подробности</string><string name="hide_build_details">Скрыть подробности</string><string name="copy_log">Копировать журнал</string><string name="logcat_access_required">Требуется доступ к Logcat</string><string name="logcat_access_description">Один раз выдайте разрешение журналов через ADB и обновите экран.</string><string name="copy_command">Копировать команду</string><string name="search_logs">Поиск в журналах</string><string name="pause">Пауза</string><string name="resume">Продолжить</string><string name="clear">Очистить</string><string name="project_health">Состояние проекта</string><string name="fix">Исправить</string>
+<string name="android_screen_title">Android</string><string name="android_ready_to_build">Готово к сборке</string><string name="android_ready_to_rebuild">Готово к пересборке</string><string name="android_ready_to_run">Готово к запуску</string><string name="android_ready_to_install">Готово к установке</string><string name="android_build_failed_title">Сборка не удалась</string><string name="android_no_apk_description">Создайте отладочный APK для запуска проекта.</string><string name="android_source_changed_short">Исходники изменились после последней сборки.</string><string name="android_build_current_installed">Сборка актуальна · Установлена на устройстве</string><string name="android_build_current_not_installed">Сборка актуальна · Готова к установке</string><string name="run_app">Запустить приложение</string><string name="android_build_again">Собрать снова</string><string name="android_build_output">Вывод сборки</string><string name="android_view">Открыть</string><string name="android_completed_in">Завершено за %1$s</string><string name="android_build_in_progress">Выполняется %1$s</string><string name="android_no_build_yet">Сборок пока нет</string><string name="android_no_build_output">Вывода сборки пока нет.</string><string name="android_checking_health">Проверка проекта…</string><string name="android_health_needs_attention">Требуют внимания: %1$d</string><string name="android_health_not_checked">Нажмите, чтобы проверить проект</string><string name="android_health_checks_passed">Проверок пройдено: %1$d</string>
+<string name="project_type">Тип проекта</string><string name="project_type_general">Обычный</string><string name="project_type_general_desc">Любой проект с кодом</string><string name="project_type_compose">Compose</string><string name="project_type_compose_desc">Современный интерфейс Android</string><string name="project_type_xml">XML</string><string name="project_type_xml_desc">Классический интерфейс Android</string>
+<string name="android_estimated_remaining">Осталось около %1$s</string><string name="android_finishing_build">Завершение сборки…</string><string name="android_estimating_build">Оценка времени сборки…</string><string name="android_usually_takes">Обычно около %1$s</string>
+<string name="diagnostics_title">Диагностика разработчика</string><string name="diagnostics_subtitle">Производительность, процессы и хранилище</string><string name="diagnostics_refresh">Обновить диагностику</string><string name="diagnostics_memory">Память</string><string name="diagnostics_app_memory">Память приложения</string><string name="diagnostics_java_heap">Куча Java</string><string name="diagnostics_processes">Активные процессы</string><string name="diagnostics_no_processes">Процессы разработки не запущены</string><string name="diagnostics_stop_inactive">Остановить неактивные процессы</string><string name="diagnostics_buffers">Буферы приложения</string><string name="diagnostics_messages">Сообщения чата</string><string name="diagnostics_live_activity">Строки активности</string><string name="diagnostics_terminal_buffer">Текст терминала</string><string name="diagnostics_build_log">Журнал сборки</string><string name="diagnostics_logcat_lines">Строки журнала</string><string name="diagnostics_file_entries">Загруженные файлы</string><string name="diagnostics_runtime_cache">Кэш вывода среды</string><string name="diagnostics_cached_output">Кэшированный вывод</string><string name="diagnostics_clear_cache">Очистить временный вывод</string><string name="diagnostics_cache_disabled">Доступно после завершения активной работы.</string><string name="diagnostics_recent_exit">Недавняя проблема</string><string name="diagnostics_no_recent_exit">Недавних сбоев и ANR нет</string><string name="diagnostics_inactive_stopped">Неактивные процессы остановлены</string><string name="diagnostics_cache_busy">Дождитесь завершения активной работы</string><string name="diagnostics_cache_cleared">Временный вывод очищен</string>
+</resources>

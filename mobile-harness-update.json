@@ -1,0 +1,17 @@
+{
+  "versionCode": 7,
+  "versionName": "1.0.6",
+  "notes": "Repairs a damaged internal Linux runtime without deleting projects, agent settings, or the Linux home directory. Includes safe rollback and interrupted-repair recovery.",
+  "artifacts": {
+    "online": {
+      "url": "https://github.com/techjarves/Mobile-Harness/releases/download/v1.0.6/mobile-harness-online-v1.0.6.apk",
+      "sha256": "79551b55e39b29bbd017e80d2aad134da3967867a9347e2fce2b4ac2bef5800d",
+      "sizeBytes": 89082468
+    },
+    "offline": {
+      "url": "https://github.com/techjarves/Mobile-Harness/releases/download/v1.0.6/mobile-harness-offline-v1.0.6.apk",
+      "sha256": "a2513ed2b3ac7599b457156dc89fcb1a5f23f772642a9563eac3ca0160f92240",
+      "sizeBytes": 889383237
+    }
+  }
+}

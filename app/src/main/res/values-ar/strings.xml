@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Mobile Harness</string>
+
+    <!-- Navigation / Bottom Tabs -->
+    <string name="tab_projects">المشاريع</string>
+    <string name="tab_agent">الوكيل</string>
+    <string name="tab_settings">الإعدادات</string>
+
+    <!-- Workspace Tabs -->
+    <string name="tab_chat">المحادثة</string>
+    <string name="tab_files">الملفات</string>
+    <string name="tab_terminal">الطرفية</string>
+    <string name="tab_changes">التغييرات</string>
+    <string name="tab_preview">معاينة</string>
+
+    <!-- Common Actions -->
+    <string name="action_ok">موافق</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_remove">إزالة</string>
+    <string name="action_add">إضافة</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_next">التالي</string>
+    <string name="action_continue">متابعة</string>
+    <string name="action_retry">إعادة المحاولة</string>
+    <string name="action_clear">مسح</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_test">اختبار</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_subtitle">التفضيلات والتكوين</string>
+    <string name="settings_appearance">المظهر</string>
+    <string name="settings_language">اللغة</string>
+    <string name="settings_tools">أدوات المطور</string>
+    <string name="settings_runtime">بيئة تشغيل لينكس</string>
+    <string name="settings_privacy">سياسة الخصوصية</string>
+    <string name="settings_privacy_desc">كيفية التعامل مع البيانات المحلية وطلبات الذكاء الاصطناعي</string>
+    <string name="settings_app_desc">مساحة عمل برمجة ذكية محلية</string>
+
+    <!-- Theme Modes -->
+    <string name="theme_dark">داكن</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_dark_subtitle">المظهر الداكن</string>
+    <string name="theme_light_subtitle">المظهر الفاتح</string>
+    <string name="theme_system_subtitle">متابعة النظام</string>
+
+    <!-- Language Selector -->
+    <string name="language_choose_title">اختر اللغة</string>
+    <string name="language_welcome_title">اختر لغتك</string>
+    <string name="language_welcome_subtitle">حدد لغتك المفضلة. يمكنك تغيير هذا في أي وقت في الإعدادات.</string>
+    <string name="language_system_default">افتراضي النظام</string>
+
+    <!-- Developer Tools -->
+    <string name="tools_subtitle">الأدوات الأساسية + %1$d سلاسل اختيارية</string>
+    <string name="tools_included">مضمن</string>
+    <string name="tools_installing">جارٍ التثبيت…</string>
+    <string name="tools_removing">جارٍ الإزالة…</string>
+    <string name="tools_remove_dialog_title">إزالة %1$s؟</string>
+    <string name="tools_remove_dialog_desc">سيؤدي هذا إلى إزالة سلسلة الأدوات وملفاتها المؤقتة لتوفير المساحة. لن يتم حذف مشاريعك أو ملفات المصدر.</string>
+
+    <!-- Linux Runtime -->
+    <string name="runtime_architecture">المعمارية</string>
+    <string name="runtime_environment">البيئة</string>
+    <string name="runtime_active_agent">الوكيل النشط</string>
+    <string name="runtime_installed_agents">الوكلاء المثبتون</string>
+    <string name="runtime_clear_history">مسح سجل الطرفية</string>
+    <string name="runtime_history_cleared">تم مسح سجل الطرفية</string>
+    <string name="runtime_advanced_reliability">موثوقية التشغيل المتقدمة</string>
+
+    <!-- Provider & Connection -->
+    <string name="provider_active_connection">الاتصال النشط</string>
+    <string name="provider_label">المزود</string>
+    <string name="provider_base_url">الرابط الأساسي</string>
+    <string name="provider_model_id">معرف النموذج</string>
+    <string name="provider_api_keys">مفاتيح API</string>
+    <string name="provider_add_key">إضافة مفتاح</string>
+    <string name="provider_key_name">اسم المفتاح</string>
+    <string name="provider_api_key">مفتاح API</string>
+    <string name="provider_testing">جارٍ الاختبار…</string>
+
+    <!-- Projects -->
+    <string name="projects_title">المشاريع</string>
+    <string name="projects_new">مشروع جديد</string>
+    <string name="projects_quick_chat">محادثة سريعة</string>
+    <string name="projects_clone">استنساخ مستودع</string>
+    <string name="projects_search">البحث في المشاريع</string>
+
+    <!-- Chat / Workspace -->
+    <string name="chat_placeholder">اسأل أي شيء أو صف مهمة برمجة…</string>
+    <string name="chat_send">إرسال</string>
+    <string name="chat_stop">إيقاف</string>
+    <string name="chat_keep_changes">إبقاء التغييرات</string>
+    <string name="chat_undo_changes">تراجع عن التغييرات</string>
+    <string name="chat_review_changes">مراجعة التغييرات</string>
+    <string name="chat_no_changes">لا توجد تغييرات</string>
+    <string name="chat_export_project">تصدير المشروع</string>
+
+    <!-- Agent -->
+    <string name="agent_title">الوكيل</string>
+    <string name="agent_choose">اختر وكيل البرمجة</string>
+    <string name="agent_google_signin">تسجيل الدخول عبر Google</string>
+
+    <!-- Background & Runtime Onboarding -->
+    <string name="bg_setup_title">الاستعداد للإعداد الموثوق</string>
+    <string name="bg_setup_subtitle">يعتمد وقت الإعداد على حزم الأدوات التي تختارها بعد ذلك. يمكنك ترك Mobile Harness في الخلفية أثناء عمله.</string>
+    <string name="bg_step_notifications">الإشعارات</string>
+    <string name="bg_step_background">الخلفية</string>
+    <string name="bg_step_task_protection">حماية المهام</string>
+    <string name="bg_status_required">مطلوب</string>
+    <string name="bg_status_next">التالي</string>
+    <string name="bg_status_granted">ممنوح</string>
+    <string name="bg_step_indicator">الخطوة %1$d من %2$d</string>
+    <string name="bg_notifications_title">إشعارات المهام</string>
+    <string name="bg_notifications_desc">شاهد التقدم المباشر وتلقى تنبيهًا عندما ينتهي Claude أو يحتاج إلى انتباهك.</string>
+    <string name="bg_notifications_privacy">يتم إرسال إشعارات تقدم المهمة وإكمالها والأخطاء فقط.</string>
+    <string name="bg_notifications_allow">السماح بالإشعارات</string>
+    <string name="bg_notifications_settings">فتح إعدادات الإشعارات</string>
+    <string name="bg_notifications_skip">المتابعة بدون إشعارات</string>
+    <string name="bg_reliability_title">موثوقية الخلفية</string>
+    <string name="bg_reliability_desc">اسمح لـ Mobile Harness بمواصلة المهمة عند قفل الهاتف أو التبديل إلى تطبيق آخر.</string>
+    <string name="bg_reliability_privacy">تظل متحكمًا ويمكنك إيقاف أي مهمة من خلال إشعارها.</string>
+    <string name="bg_reliability_settings">فتح إعدادات البطارية</string>
+    <string name="bg_reliability_skip">المتابعة بدون استثناء البطارية</string>
+    <string name="bg_protection_title">حماية المهام</string>
+    <string name="bg_protection_desc">حافظ على استيقاظ المعالج فقط أثناء تشغيل مهمة برمجة مرئية، ثم حرره تلقائيًا.</string>
+    <string name="bg_protection_privacy">تظل الشاشة مطفأة. الحماية محددة بـ 90 دقيقة وتتوقف مع المهمة.</string>
+    <string name="bg_protection_enable">تفعيل وإنهاء</string>
+    <string name="bg_setup_footer">يمكنك تغيير هذه الإعدادات لاحقًا. قد يوقف Android المهام الثقيلة للغاية عندما تكون ذاكرة الجهاز منخفضة.</string>
+
+    <string name="runtime_setup_device_check_badge">فحص الجهاز</string>
+    <string name="runtime_setup_device_ready_title">جاهز للبناء على هذا الهاتف</string>
+    <string name="runtime_setup_device_ready_desc">يلبي هاتفك المتطلبات. اختر أدوات البرمجة بعد ذلك وسيتولى Mobile Harness عملية الإعداد.</string>
+    <string name="runtime_setup_sys_compat">توافق النظام</string>
+    <string name="runtime_setup_device_ready">جهازك جاهز</string>
+    <string name="runtime_setup_device_unsupported">هذا الجهاز غير مدعوم</string>
+    <string name="runtime_setup_status_ready">جاهز</string>
+    <string name="runtime_setup_status_unsupported">غير مدعوم</string>
+    <string name="runtime_setup_memory_ram">الذاكرة (RAM)</string>
+    <string name="runtime_setup_ram_usable">%1$s جيجابايت قابلة للاستخدام</string>
+    <string name="runtime_setup_processor">المعالج</string>
+    <string name="runtime_setup_download_req">التنزيل المطلوب</string>
+    <string name="runtime_setup_download_range">149–774 ميغابايت</string>
+    <string name="runtime_setup_download_based_on_tools">بناءً على الأدوات التي تحددها</string>
+    <string name="runtime_setup_continue_to_tools">المتابعة إلى إعداد الأدوات</string>
+    <string name="runtime_setup_device_not_supported">الجهاز غير مدعوم</string>
+    <string name="runtime_setup_change_tools_later">يمكنك تغيير الأدوات لاحقًا</string>
+    <string name="runtime_setup_toolchain_badge">إعداد حزم الأدوات</string>
+    <string name="runtime_setup_choose_tools_title">اختر أدواتك</string>
+    <string name="runtime_setup_choose_tools_desc">ابدأ بحجم خفيف. يمكنك تثبيت المزيد من حزم الأدوات لاحقًا من الإعدادات.</string>
+    <string name="runtime_setup_core_runtime">بيئة التشغيل الأساسية · 68.8 ميغابايت</string>
+    <string name="runtime_setup_core_runtime_download">بيئة التشغيل الأساسية · تنزيل 68.8 ميغابايت</string>
+    <string name="runtime_setup_coding_agent_badge">وكيل البرمجة</string>
+    <string name="runtime_setup_coding_agent_note">يتم تنزيل الوكيل الاختياري المحدد فقط. يمكنك تثبيت الوكلاء أو التبديل بينهم لاحقًا من الإعدادات.</string>
+    <string name="runtime_setup_optional_toolchains_badge">حزم أدوات اختيارية</string>
+    <string name="runtime_setup_install_btn">تثبيت Mobile Harness</string>
+
+    <!-- Setup and Runtime Installation Screens -->
+    <string name="setup_mobile_harness">إعداد Mobile Harness</string>
+    <string name="setup_local_badge">إعداد محلي</string>
+    <string name="setup_build_workspace">بناء مساحة عملك</string>
+    <string name="setup_installation_progress">تقدم التثبيت</string>
+    <string name="setup_estimated_time">الوقت المقدر %1$s</string>
+    <string name="setup_time_minutes">%1$d–%2$d دقائق</string>
+    <string name="setup_live_terminal">محطة الإعداد المباشرة</string>
+    <string name="setup_background_note">يمكنك ترك Mobile Harness في الخلفية ومتابعة الإعداد من الإشعار.</string>
+    <string name="startup_msg_setting_up">جارٍ إعداد مساحة العمل الخاصة بك</string>
+    <string name="startup_msg_preparing_tools">جارٍ تجهيز أدوات البرمجة الخاصة بك</string>
+    <string name="startup_msg_almost_ready">على وشك الانتهاء</string>
+    <string name="workspace_launch_badge">مساحة عمل محمولة خاصة</string>
+    <string name="workspace_launch_title">جارٍ تجهيز كل شيء</string>
+    <string name="workspace_launch_desc">جارٍ استعادة مشاريعك وإعادة الاتصال بوكيل البرمجة المحلي.</string>
+    <string name="workspace_launch_footer">يعمل محليًا على هذا الجهاز · تظل ملفات مشروعك خاصة</string>
+
+    <!-- Runtime Installer Dynamic Progress Messages -->
+    <string name="runtime_msg_downloading_bundle">جارٍ تنزيل حزمة %1$s</string>
+    <string name="runtime_msg_loading_bundle">جارٍ تحميل حزمة %1$s</string>
+    <string name="runtime_msg_preparing_runtime">جارٍ تجهيز بيئة التطوير الخاصة</string>
+    <string name="runtime_msg_verifying_unpacking">جارٍ التحقق من بيئة تشغيل %1$s واستخراجها</string>
+    <string name="runtime_msg_tools_installed">تم تثبيت أدوات %1$s</string>
+    <string name="runtime_msg_checking_files">جارٍ فحص ملفات بيئة التشغيل الخاصة</string>
+    <string name="runtime_msg_preparing_bridge">جارٍ تجهيز جسر بيئة تشغيل Android</string>
+    <string name="runtime_msg_runtime_ready">بيئة التشغيل الخاصة جاهزة</string>
+    <string name="runtime_msg_setup_complete">اكتمل الإعداد</string>
+    <string name="runtime_msg_resuming_setup">استئناف إعداد Mobile Harness</string>
+    <string name="runtime_msg_downloading_generic">جارٍ تنزيل %1$s</string>
+    <string name="runtime_msg_installing_generic">جارٍ تثبيت %1$s</string>
+    <string name="theme_toggle">تبديل المظهر</string>
+    <string name="provider_setup_settings_title">مزود الذكاء الاصطناعي والإعدادات</string>
+    <string name="provider_device_title">هاتفك هو مساحة العمل</string>
+    <string name="provider_device_desc">يتحقق Mobile Harness من التوافق قبل تنزيل بيئة Linux الخاصة.</string>
+    <string name="provider_memory">الذاكرة</string><string name="provider_memory_mode">%1$s غيغابايت متاحة · %2$s</string><string name="provider_full_mode">الوضع الكامل</string><string name="provider_lite_mode">الوضع الخفيف</string><string name="provider_unknown">غير معروف</string><string name="provider_android_version">Android %1$s</string>
+    <string name="provider_security_warning">افتح المشاريع التي تثق بها فقط. بيئة Linux المحلية هي طبقة توافق وليست صندوق حماية أمنيًا محصنًا.</string>
+    <string name="provider_step_of">الخطوة %1$d من %2$d</string><string name="provider_secure_setup">إعداد آمن</string><string name="provider_connect_ai">وصّل الذكاء الاصطناعي</string><string name="provider_connect_ai_desc">اختر كيفية وصول Mobile Harness إلى نموذج البرمجة.</string><string name="provider_keys_secure">يتم تشفير مفاتيح API في التخزين الآمن لنظام Android.</string><string name="provider_continue">متابعة</string><string name="provider_use_another_agent">استخدام وكيل برمجة آخر</string><string name="provider_beta">تجريبي</string>
+    <string name="provider_title_claude">اشتراك Claude</string><string name="provider_title_anthropic">واجهة Anthropic API</string><string name="provider_title_openrouter">OpenRouter</string><string name="provider_title_deepseek">DeepSeek</string><string name="provider_title_kimi">Kimi</string><string name="provider_title_opencode">OpenCode Zen</string><string name="provider_title_nvidia">NVIDIA NIM</string><string name="provider_title_custom">واجهة API مخصصة</string>
+    <string name="provider_subtitle_claude">Pro أو Max أو Team أو Enterprise</string><string name="provider_subtitle_anthropic">تُحتسب الفوترة عبر Console</string><string name="provider_subtitle_openrouter">استخدم مفتاح OpenRouter API</string><string name="provider_subtitle_deepseek">استخدم مفتاح DeepSeek API</string><string name="provider_subtitle_anthropic_compatible">نقطة نهاية متوافقة مع Anthropic</string><string name="provider_subtitle_opencode">نماذج عبر بوابة OpenCode Zen</string><string name="provider_subtitle_nvidia">نماذج متوافقة مع OpenAI تستضيفها NVIDIA</string>
+    <string name="provider_gateway_protocol">بروتوكول البوابة</string><string name="provider_gateway_protocol_help">اختر البروتوكول الذي تستخدمه بوابتك؛ يوجهه DeepSeek Harness مباشرة.</string><string name="provider_models_found">تم العثور على %1$d نموذج متاح.</string><string name="provider_available_models">النماذج المتاحة</string><string name="provider_models_count">%1$d من %2$d نموذج</string><string name="provider_refresh_models">تحديث النماذج</string><string name="provider_search_models">ابحث باسم النموذج أو المعرّف</string><string name="provider_no_matching_models">لا توجد نماذج مطابقة</string><string name="provider_free"> مجاني</string>
+    <string name="provider_encrypted_locally">مشفر محليًا</string><string name="provider_endpoint_deepseek">سيتصل DeepSeek Harness عبر نقطة API هذه.</string><string name="provider_endpoint_translate">سيترجم Mobile Harness طلبات Claude Code لهذا المزود.</string><string name="provider_endpoint_claude">سيتصل Claude Code عبر نقطة API هذه.</string><string name="provider_fixed_by">مثبت بواسطة %1$s</string><string name="provider_saved_key_placeholder">محفوظ بأمان — اتركه فارغًا للاحتفاظ به</string><string name="provider_enter_key">أدخل مفتاح API</string><string name="provider_saved_key_ready">يوجد مفتاح محفوظ جاهز للاستخدام</string><string name="provider_model_name">اسم النموذج</string><string name="provider_model_help">اختر نموذجًا متاحًا أو أدخل معرف النموذج الدقيق.</string><string name="provider_find_models">البحث عن النماذج المتاحة</string><string name="provider_available_models_count">النماذج المتاحة (%1$d)</string><string name="provider_checking_settings">جارٍ التحقق من مفتاح API والنموذج وإعدادات Claude Code…</string><string name="provider_checking">جارٍ التحقق</string>
+    <string name="provider_claude_connect_desc">اربط اشتراك Claude Pro أو Max أو Team أو Enterprise بـ Claude Code.</string><string name="provider_claude_step_one">1. على كمبيوتر مثبت عليه Claude Code، شغّل:</string><string name="provider_claude_step_two">2. سجّل الدخول إلى Claude والصق الرمز الذي تم إنشاؤه هنا.</string><string name="provider_claude_token">رمز إعداد Claude</string><string name="provider_paste_token">الصق الرمز</string><string name="provider_saved_token_ready">رمز اشتراك محفوظ جاهز للاستخدام</string><string name="provider_toggle_token_visibility">تبديل إظهار الرمز</string><string name="provider_save_continue">حفظ ومتابعة</string>
+    <string name="agent_choose_title">اختر وكيل البرمجة</string><string name="agent_choose_desc">بدّل الوكيل إذا كانت الخدمة الحالية غير متاحة. ستظل بيانات تسجيل الدخول وبيانات الاعتماد محفوظة.</string><string name="agent_recommended">موصى به</string><string name="agent_title_claude">Claude Code</string><string name="agent_title_deepseek">DeepSeek Harness</string><string name="agent_title_antigravity">Antigravity CLI</string><string name="agent_subtitle_claude">وكيل البرمجة من Anthropic · دعم واسع للمزودين</string><string name="agent_subtitle_deepseek">وكيل DeepSeek الرسمي · مزودو مفاتيح API</string><string name="agent_subtitle_antigravity">وكيل Google الرسمي · حساب Google</string>
+    <string name="projects_hero_title">ابنِ من هاتفك</string><string name="projects_hero_desc">تحدث وراجع التغييرات وعاين مشروعك.</string><string name="projects_quick_project">مشروع سريع</string><string name="projects_new_project">مشروع جديد</string><string name="projects_bring_existing">إحضار مشروع موجود</string><string name="projects_import_expanded">استورد الملفات أو انسخ سجل Git الكامل</string><string name="projects_import_sources">ملف ZIP أو مستودع Git أو GitHub</string><string name="projects_your_projects">مشاريعك</string><string name="projects_empty_title">لا توجد مشاريع بعد</string><string name="projects_empty_desc">أنشئ مشروعًا باسم أو ابدأ فورًا بمشروع سريع.</string><string name="projects_terminal">الطرفية</string>
+    <string name="agent_screen_title">وكيل الذكاء الاصطناعي</string><string name="agent_status_testing">جارٍ الاختبار…</string><string name="agent_status_attention">يتطلب الانتباه</string><string name="agent_status_online">متصل</string><string name="agent_status_not_tested">لم يُختبر</string><string name="agent_provider_title">مزود الذكاء الاصطناعي</string><string name="agent_custom_api_settings">إعدادات API المخصصة</string><string name="agent_endpoint_protocol">نقطة النهاية والبروتوكول</string><string name="agent_model_access">النموذج والوصول</string><string name="agent_discovering">جارٍ الاكتشاف…</string><string name="agent_discover_models">اكتشاف النماذج</string><string name="agent_models_count">%1$d نموذج</string><string name="agent_ai_model">نموذج الذكاء الاصطناعي</string><string name="agent_select_model">اختر نموذجًا أو اكتب المعرّف</string><string name="agent_subscription_token">رمز الاشتراك</string><string name="agent_credentials">بيانات الاعتماد</string><string name="agent_test_connection">اختبار الاتصال</string><string name="agent_runtime_updates">تحديثات بيئة التشغيل</string><string name="agent_updates_current">تظل الوكلاء المثبتة محدثة</string><string name="agent_check_updates">التحقق من التحديثات</string><string name="agent_security_footer">مفاتيح API مشفرة في تخزين Android الآمن · الطرفية متاحة من أي مشروع</string><string name="agent_approval_footer">موافقة تلقائية على الأدوات · يعمل داخل مساحة Linux الخاصة</string>
+    <string name="projects_importing">جارٍ الاستيراد…</string><string name="projects_zip_file">ملف ZIP</string><string name="projects_cloning">جارٍ الاستنساخ…</string><string name="projects_git_url">رابط Git</string><string name="projects_github_account">GitHub · @%1$s</string><string name="projects_connect_github">ربط GitHub</string><string name="projects_browse_repositories">تصفح المستودعات العامة والخاصة</string><string name="projects_sign_in_repositories">سجّل الدخول للوصول إلى مستودعاتك</string>
+    <string name="agent_not_installed">%1$s غير مثبت</string><string name="agent_install_description">ثبّت حزمة الوكيل بحجم %1$s لاستخدامها مع مشاريعك الحالية.</string><string name="agent_install_action">تثبيت %1$s</string>
+    <string name="agent_installing_binary">جارٍ تثبيت الملف الثنائي للوكيل…</string><string name="chat_welcome">مرحبًا! أخبرني بما تريد إنشاءه أو تغييره.</string><string name="chat_message_agent">مراسلة %1$s…</string><string name="workspace_files">الملفات</string><string name="workspace_no_files">لا توجد ملفات بعد</string><string name="workspace_no_files_description">اطلب من وكيل البرمجة إنشاء شيء ما في هذا المشروع.</string><string name="workspace_project_terminal">طرفية المشروع</string><string name="workspace_terminal_ready">طرفية Mobile Harness جاهزة.\nاكتب أمر bash أدناه أو اضغط على أمر سريع أعلاه.</string><string name="workspace_preview_url">رابط المعاينة</string><string name="workspace_preview_not_running">المعاينة غير قيد التشغيل</string><string name="workspace_preview_not_running_description">أدخل رابط localhost أعلاه، أو شغّل خادم ويب محليًا في طرفية المشروع.</string>
+    <string name="agent_connection_verified">تم التحقق من اتصال %1$s.</string><string name="agent_status_verified">تم التحقق</string>
+    <string name="chat_attach_files">إرفاق ملفات</string><string name="chat_take_photo">التقاط صورة</string><string name="chat_choose_files">اختيار ملفات</string><string name="chat_camera_unavailable">لا يتوفر تطبيق كاميرا</string>
+    <string name="export_busy">أوقف المهمة أو الطرفية أو البناء أو حفظ الملف قبل التصدير.</string><string name="export_success">تم تصدير %1$s</string><string name="export_failed">فشل التصدير: %1$s</string><string name="unknown_error">خطأ غير معروف</string><string name="file_saved">تم حفظ الملف</string><string name="file_save_failed">تعذر حفظ الملف</string><string name="select_files">تحديد الملفات</string><string name="select_all">تحديد الكل</string><string name="collapse_all">طي الكل</string><string name="export_project_zip">تصدير المشروع بصيغة ZIP</string><string name="collapse_folder">طي المجلد</string><string name="expand_folder">توسيع المجلد</string><string name="creating_zip">جارٍ إنشاء ZIP…</string><string name="download_zip">تنزيل ZIP</string><string name="unsaved_changes">تغييرات غير محفوظة</string><string name="unsaved_changes_description">هل تريد حفظ التغييرات قبل مغادرة الملف؟</string><string name="save">حفظ</string><string name="discard">تجاهل</string><string name="keep_editing">متابعة التحرير</string><string name="file_changed_title">تغيّر الملف</string><string name="file_changed_description">تغيّر الملف خارج المحرر. أعد تحميله لتجنب استبدال التغييرات الجديدة.</string><string name="reload">إعادة تحميل</string><string name="cancel">إلغاء</string><string name="close_file">إغلاق الملف</string><string name="save_file">حفظ الملف</string><string name="copy_file_contents">نسخ محتوى الملف</string><string name="edit_file">تحرير الملف</string><string name="no_content">لا يوجد محتوى</string><string name="file_could_not_read">تعذرت قراءة الملف.</string><string name="file_binary_description">لا يمكن عرض الملفات الثنائية أو تحريرها.</string><string name="file_invalid_utf8_description">يمكن تحرير ملفات UTF-8 النصية الصالحة فقط.</string><string name="file_unsafe_description">لا يمكن فتح هذا المسار المحمي أو غير الآمن.</string><string name="file_too_large_description">تُعرض الملفات الأكبر من 512 كيلوبايت للقراءة فقط.</string><string name="undo">تراجع</string><string name="redo">إعادة</string><string name="find_in_file">بحث في الملف</string><string name="find">بحث</string><string name="previous_match">النتيجة السابقة</string><string name="next_match">النتيجة التالية</string><string name="unsaved">غير محفوظ</string><string name="saved">محفوظ</string>
+<string name="android_dashboard">لوحة Android</string><string name="android_build_tab">البناء</string><string name="android_logcat_tab">السجلات</string><string name="android_health_tab">الفحص</string><string name="android_ready">جاهز لتطوير Android</string><string name="close">إغلاق</string><string name="refresh">تحديث</string><string name="more_options">خيارات إضافية</string><string name="force_rebuild">فرض إعادة البناء</string><string name="clean_project">تنظيف المشروع</string><string name="build_progress">تقدم البناء</string><string name="android_stage_idle">جاهز</string><string name="android_stage_preparing">تحضير</string><string name="android_stage_resolving">حل التبعيات</string><string name="android_stage_compiling">ترجمة</string><string name="android_stage_resources">الموارد</string><string name="android_stage_packaging">تجميع الحزمة</string><string name="android_stage_finding_apk">البحث عن APK</string><string name="android_stage_installing">تثبيت</string><string name="android_stage_launching">تشغيل</string><string name="android_stage_complete">مكتمل</string><string name="android_stage_failed">فشل</string><string name="android_stage_cancelling">إلغاء</string><string name="android_stage_cancelled">ملغى</string><string name="android_tools_required">أدوات تطوير Android مطلوبة قبل البناء.</string><string name="install_android_tools">تثبيت أدوات Android</string><string name="build">بناء</string><string name="install">تثبيت</string><string name="run">تشغيل</string><string name="build_and_run">بناء وتشغيل</string><string name="cancel_operation">إلغاء العملية</string><string name="build_issues">مشكلات البناء</string><string name="unknown_package">حزمة غير معروفة</string><string name="installed">مثبت</string><string name="not_installed">غير مثبت</string><string name="stale_apk_warning">تغيّرت الملفات المصدر بعد بناء APK. يمكنك استخدامه أو بناء نسخة حديثة.</string><string name="apk_version_info">الإصدار %1$s (%2$s) · أدنى SDK ‏%3$s · SDK الهدف %4$s</string><string name="share">مشاركة</string><string name="save_copy">حفظ نسخة</string><string name="copy_path">نسخ المسار</string><string name="app_info">معلومات التطبيق</string><string name="uninstall">إلغاء التثبيت</string><string name="show_build_details">إظهار تفاصيل البناء</string><string name="hide_build_details">إخفاء تفاصيل البناء</string><string name="copy_log">نسخ السجل</string><string name="logcat_access_required">يلزم الوصول إلى Logcat</string><string name="logcat_access_description">امنح إذن السجلات مرة واحدة عبر ADB ثم حدّث هذه الشاشة.</string><string name="copy_command">نسخ الأمر</string><string name="search_logs">البحث في السجلات</string><string name="pause">إيقاف مؤقت</string><string name="resume">متابعة</string><string name="clear">مسح</string><string name="project_health">سلامة المشروع</string><string name="fix">إصلاح</string>
+<string name="android_screen_title">Android</string><string name="android_ready_to_build">جاهز للبناء</string><string name="android_ready_to_rebuild">جاهز لإعادة البناء</string><string name="android_ready_to_run">جاهز للتشغيل</string><string name="android_ready_to_install">جاهز للتثبيت</string><string name="android_build_failed_title">فشل البناء</string><string name="android_no_apk_description">أنشئ APK لتصحيح الأخطاء لتشغيل المشروع.</string><string name="android_source_changed_short">تغيّر المصدر منذ آخر بناء.</string><string name="android_build_current_installed">البناء محدّث · مثبت على هذا الجهاز</string><string name="android_build_current_not_installed">البناء محدّث · جاهز للتثبيت</string><string name="run_app">تشغيل التطبيق</string><string name="android_build_again">البناء مجددًا</string><string name="android_build_output">مخرجات البناء</string><string name="android_view">عرض</string><string name="android_completed_in">اكتمل خلال %1$s</string><string name="android_build_in_progress">يعمل منذ %1$s</string><string name="android_no_build_yet">لا يوجد بناء بعد</string><string name="android_no_build_output">لا توجد مخرجات بناء بعد.</string><string name="android_checking_health">جارٍ فحص المشروع…</string><string name="android_health_needs_attention">%1$d فحوصات تحتاج إلى الانتباه</string><string name="android_health_not_checked">اضغط لفحص المشروع</string><string name="android_health_checks_passed">تم اجتياز %1$d فحوصات</string>
+<string name="project_type">نوع المشروع</string><string name="project_type_general">عام</string><string name="project_type_general_desc">لأي مشروع برمجي</string><string name="project_type_compose">Compose</string><string name="project_type_compose_desc">واجهة Android حديثة</string><string name="project_type_xml">XML</string><string name="project_type_xml_desc">واجهة Android تقليدية</string>
+<string name="android_estimated_remaining">متبقٍ نحو %1$s</string><string name="android_finishing_build">جارٍ إنهاء البناء…</string><string name="android_estimating_build">جارٍ تعلّم مدة البناء…</string><string name="android_usually_takes">عادةً نحو %1$s</string>
+<string name="diagnostics_title">تشخيصات المطور</string><string name="diagnostics_subtitle">الأداء والعمليات وتخزين بيئة التشغيل</string><string name="diagnostics_refresh">تحديث التشخيصات</string><string name="diagnostics_memory">الذاكرة</string><string name="diagnostics_app_memory">ذاكرة التطبيق</string><string name="diagnostics_java_heap">ذاكرة Java</string><string name="diagnostics_processes">العمليات النشطة</string><string name="diagnostics_no_processes">لا توجد عملية تطوير قيد التشغيل</string><string name="diagnostics_stop_inactive">إيقاف العمليات غير النشطة</string><string name="diagnostics_buffers">المخازن المؤقتة</string><string name="diagnostics_messages">رسائل المحادثة</string><string name="diagnostics_live_activity">صفوف النشاط المباشر</string><string name="diagnostics_terminal_buffer">نص الطرفية</string><string name="diagnostics_build_log">سجل البناء</string><string name="diagnostics_logcat_lines">أسطر السجل</string><string name="diagnostics_file_entries">إدخالات الملفات المحملة</string><string name="diagnostics_runtime_cache">ذاكرة مخرجات التشغيل</string><string name="diagnostics_cached_output">المخرجات المخزنة</string><string name="diagnostics_clear_cache">مسح المخرجات المؤقتة</string><string name="diagnostics_cache_disabled">يتاح بعد انتهاء العمل النشط.</string><string name="diagnostics_recent_exit">مشكلة حديثة في التطبيق</string><string name="diagnostics_no_recent_exit">لا يوجد تعطل أو عدم استجابة حديث</string><string name="diagnostics_inactive_stopped">تم إيقاف العمليات غير النشطة</string><string name="diagnostics_cache_busy">انتظر انتهاء العمل النشط قبل المسح</string><string name="diagnostics_cache_cleared">تم مسح مخرجات التشغيل المؤقتة</string>
+</resources>

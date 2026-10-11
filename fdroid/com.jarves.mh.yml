@@ -1,0 +1,31 @@
+Categories:
+  - Development
+  - System
+License: MIT
+AuthorName: TechJarves
+SourceCode: https://github.com/techjarves/Mobile-Harness
+IssueTracker: https://github.com/techjarves/Mobile-Harness/issues
+Changelog: https://github.com/techjarves/Mobile-Harness/releases
+
+AutoName: Mobile Harness
+
+RepoType: git
+Repo: https://github.com/techjarves/Mobile-Harness.git
+
+AntiFeatures:
+  - NonFreeNet
+
+Builds:
+  - versionName: 1.0.2
+    versionCode: 3
+    commit: v1.0.2
+    subdir: app
+    ndk: r26b
+    submodules: true
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.2
+CurrentVersionCode: 3

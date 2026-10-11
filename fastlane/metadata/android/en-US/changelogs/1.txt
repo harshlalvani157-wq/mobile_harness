@@ -1,0 +1,6 @@
+Initial Mobile Harness alpha:
+- Persistent projects and Quick Projects
+- Streaming AI coding chat and tool activity
+- Ubuntu 20.04 ARM64 local runtime
+- Project and global terminals
+- File browser, diffs, checkpoints, and local preview
