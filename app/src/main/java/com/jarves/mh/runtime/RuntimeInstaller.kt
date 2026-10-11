@@ -353,17 +353,50 @@ class RuntimeInstaller(private val context: Context) {
             str(R.string.rt_install_code_server_needs_online)
         }
         writeResolver()
-        val proot = installedRuntime().proot
         onProgress(RuntimeInstallProgress(str(R.string.rt_install_installing_named, "Code Server"), 0.1f, indeterminate = true))
-        runGuestCommand(
-            proot = proot,
-            command = "export DEBIAN_FRONTEND=noninteractive; npm install -g --omit=dev --no-audit --no-fund code-server@$CODE_SERVER_VERSION || npm install -g --omit=dev code-server",
-            displayCommand = "npm install -g code-server",
-            fraction = 0.5f,
-            timeoutMs = 15 * 60 * 1_000L,
-            onProgress = onProgress,
-            failureMessage = str(R.string.rt_install_command_failed, 1),
-        )
+
+        // The npm package compiles native argon2 with node-gyp on ARM64/Node 24.
+        // Use Coder's self-contained ARM64 archive instead: it includes its own
+        // Node runtime and native modules, so installation needs no compiler,
+        // Python, npm network resolution, or mutable global npm state.
+        val archive = File(downloads, CODE_SERVER_ARCHIVE_FILE)
+        downloadVerified(
+            url = CODE_SERVER_ARCHIVE_URL,
+            destination = archive,
+            expectedChecksum = CODE_SERVER_ARCHIVE_SHA256,
+        ) { downloaded, total ->
+            val ratio = if (total > 0) downloaded.toFloat() / total else 0f
+            onProgress(
+                RuntimeInstallProgress(
+                    str(R.string.rt_install_downloading_named, "Code Server"),
+                    0.1f + ratio * 0.55f,
+                    downloaded,
+                    total.takeIf { it > 0 },
+                ),
+            )
+        }
+
+        onProgress(RuntimeInstallProgress(str(R.string.rt_install_installing_named, "Code Server"), 0.7f, indeterminate = true))
+        val staging = File(runtimeDir, "code-server.installing")
+        staging.deleteRecursively()
+        staging.mkdirs()
+        extractNodeArchive(archive, staging)
+        check(File(staging, "bin/code-server").canExecute()) {
+            "Standalone Code Server archive is missing its launcher"
+        }
+
+        val installDir = File(rootfs, "usr/local/lib/code-server-$CODE_SERVER_VERSION")
+        installDir.deleteRecursively()
+        installDir.parentFile?.mkdirs()
+        check(staging.renameTo(installDir)) { "Could not activate Code Server" }
+
+        // Remove any partial npm install from an earlier app build, then expose
+        // the standalone launcher at the stable path used by CodeServerManager.
+        File(rootfs, "usr/local/lib/node_modules/code-server").deleteRecursively()
+        val launcher = File(rootfs, CODE_SERVER_GUEST_PATH.removePrefix("/"))
+        if (launcher.exists() || java.nio.file.Files.isSymbolicLink(launcher.toPath())) launcher.delete()
+        Os.symlink("../lib/code-server-$CODE_SERVER_VERSION/bin/code-server", launcher.absolutePath)
+        archive.delete()
         codeServerMarker.writeText(CODE_SERVER_VERSION)
         check(isCodeServerInstalled()) { "Code Server installation is incomplete" }
         onProgress(RuntimeInstallProgress(str(R.string.rt_install_ready, "Code Server"), 1f))
@@ -1894,6 +1927,9 @@ printf '%s\n' '{"hookSpecificOutput":{"hookEventName":"PermissionRequest","decis
         const val GITHUB_CLI_GUEST_PATH = "/root/.local/bin/gh"
         const val CODE_SERVER_GUEST_PATH = "/usr/local/bin/code-server"
         const val CODE_SERVER_VERSION = "4.98.0"
+        private const val CODE_SERVER_ARCHIVE_FILE = "code-server-4.98.0-linux-arm64.tar.gz"
+        private const val CODE_SERVER_ARCHIVE_URL = "https://github.com/coder/code-server/releases/download/v4.98.0/$CODE_SERVER_ARCHIVE_FILE"
+        private const val CODE_SERVER_ARCHIVE_SHA256 = "06aff3443277189baf2bbbab14b4ea3823553569c70c37a55c440ae9753a9779"
         private const val AGY_VERSION = "1.1.27"
         private const val AGY_RELEASE_URL = "https://storage.googleapis.com/antigravity-public/antigravity-cli/1.1.27-5211191891591168/linux-arm/cli_linux_arm64.tar.gz"
         private const val AGY_RELEASE_SHA512 = "ed45f6930785aa4b42f14e07ace1c9d91a94fb76e760f54acbd7d3d3951e1f957fd456a0dae2a3124dd9a3b689bf7afb7c9303a3e4ba95037fc10063424d9bf9"
