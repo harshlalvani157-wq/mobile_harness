@@ -28,7 +28,6 @@
     <string name="code_server_not_installed">Code Server is not installed yet.</string>
     <string name="code_server_open_browser">Open in external browser</string>
     <string name="code_server_installed_success">Code Server installed successfully</string>
-    <string name="rt_install_code_server_needs_online">Code Server installation requires internet access.</string>
 
     <!-- Common Actions -->
     <string name="action_ok">OK</string>
