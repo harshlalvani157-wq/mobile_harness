@@ -32,14 +32,19 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: 'temurin'
           java-version: '17'
           cache: 'gradle'
 
-      - name: Set up Android SDK
+      - name: Set up Android SDK tools
         uses: android-actions/setup-android@v3
+        with:
+          # Do not use the action defaults: they include the removed
+          # package "tools" and can trigger an interactive license prompt.
+          packages: ''
+          accept-android-sdk-licenses: false
 
       - name: Accept Android Licenses & Install NDK / CMake
         run: |
