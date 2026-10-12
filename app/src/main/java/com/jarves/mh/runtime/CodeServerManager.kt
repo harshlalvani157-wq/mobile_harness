@@ -38,7 +38,9 @@ class CodeServerManager(
      * Binds to loopback interface on the specified port without authentication.
      */
     suspend fun start(
+        projectId: String,
         projectSlug: String,
+        projectRootPath: String = "",
         targetPort: Int = DEFAULT_PORT,
     ): Result<String> = withContext(Dispatchers.IO) {
         if (!installer.isInstalled()) {
@@ -58,7 +60,18 @@ class CodeServerManager(
             return@withContext Result.failure(it)
         }
 
-        val workspace = File(context.filesDir, "workspaces/$projectSlug").apply { mkdirs() }
+        // The Files tab stores user code under the immutable project ID. Never
+        // use the display slug here: slugs can collide with legacy workspaces
+        // and would make Code Server and Files point at different directories.
+        val projectBase = File(context.filesDir, "workspaces/$projectId").canonicalFile.apply { mkdirs() }
+        val workspace = if (projectRootPath.isBlank()) {
+            projectBase
+        } else {
+            File(projectBase, projectRootPath).canonicalFile.also {
+                check(it.toPath().startsWith(projectBase.toPath())) { "Invalid project root path" }
+                it.mkdirs()
+            }
+        }
         val guestWorkspacePath = "/workspace/$projectSlug"
         val executable = resolveCodeServerExecutable(runtime.rootfs)
 

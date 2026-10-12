@@ -932,7 +932,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             )
         }
         viewModelScope.launch(Dispatchers.IO) {
-            val result = codeServerManager.start(project.slug)
+            val result = codeServerManager.start(project.id, project.slug, project.rootPath)
             withContext(Dispatchers.Main) {
                 result.onSuccess { url ->
                     _state.update {
@@ -3075,6 +3075,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
             }
             return
         }
+        codeServerManager.stop()
         configureBridgeRoots(project.id, project.rootPath)
         val terminal = loadProjectTerminal(project)
         val suggestedRoot = if (project.rootPath.isBlank()) detectNestedProjectRoot(project) else null
