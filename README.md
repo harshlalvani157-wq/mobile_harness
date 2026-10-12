@@ -2,7 +2,7 @@
 
   <img src="assets/readme/logo.svg" alt="Mobile Harness Logo" width="104" height="104" style="border-radius: 24px;" />
 
-  # Mobile Harness
+  # Pocket IDE
 
   ### *The complete autonomous AI development workspace for Android.*
 
