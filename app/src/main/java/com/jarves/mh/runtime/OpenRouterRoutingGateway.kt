@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 import org.json.JSONArray
 import org.json.JSONObject
 
-/** Adds Mobile Harness' saved OpenRouter routing policy to Anthropic Messages requests. */
+/** Adds Pocket IDE' saved OpenRouter routing policy to Anthropic Messages requests. */
 internal fun applyOpenRouterRouting(source: JSONObject, profile: ProviderProfile): JSONObject {
     val providers = profile.openRouterProviders
     if (providers.isEmpty()) return source

@@ -31,7 +31,7 @@
     <string name="vm_installer_start_failed">تعذّر تشغيل مثبّت Android</string>
     <string name="vm_update_download_failed">فشل تنزيل التحديث</string>
     <string name="vm_setup_offline">اتصل بشبكة Wi-Fi أو بيانات الجوال، ثم حاول مرة أخرى. الإنترنت مطلوب لإكمال الإعداد الأولي.</string>
-    <string name="vm_setup_generic_error">حدث خطأ أثناء تجهيز Mobile Harness. يرجى المحاولة مرة أخرى.</string>
+    <string name="vm_setup_generic_error">حدث خطأ أثناء تجهيز Pocket IDE. يرجى المحاولة مرة أخرى.</string>
     <string name="vm_antigravity_sign_in_first">سجّل الدخول إلى Antigravity أولاً</string>
     <string name="vm_stop_agent_before_switching">أوقف الوكيل الحالي قبل التبديل.</string>
     <string name="vm_preparing_named">جارٍ تجهيز %1$s…</string>

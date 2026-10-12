@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/readme/logo.svg" alt="Mobile Harness Logo" width="104" height="104" style="border-radius: 24px;" />
+  <img src="assets/readme/logo.svg" alt="Pocket IDE Logo" width="104" height="104" style="border-radius: 24px;" />
 
   # Pocket IDE
 
@@ -33,7 +33,7 @@
 
 <p align="center">
   <a href="https://youtu.be/x5T56timmQw" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.youtube.com/vi/x5T56timmQw/maxresdefault.jpg" alt="Mobile Harness Walkthrough and Live Product Demo" width="920" />
+    <img src="https://img.youtube.com/vi/x5T56timmQw/maxresdefault.jpg" alt="Pocket IDE Walkthrough and Live Product Demo" width="920" />
   </a>
   <br />
   <sub>Watch the product walkthrough and demo &nbsp;|&nbsp; <i>Setting up Ubuntu, connecting Claude Code, and building an app on Android</i></sub>
@@ -45,15 +45,15 @@
 
 > [!IMPORTANT]
 > **Environment Security Notice**  
-> Mobile Harness runs on **ARM64 Android devices** using a private userspace PRoot layer. While isolated from other apps via standard Android sandbox permissions, PRoot is not a virtualization boundary or hardened security jail. Only execute projects and dependencies you own or trust.
+> Pocket IDE runs on **ARM64 Android devices** using a private userspace PRoot layer. While isolated from other apps via standard Android sandbox permissions, PRoot is not a virtualization boundary or hardened security jail. Only execute projects and dependencies you own or trust.
 
 <br />
 
-## Download Mobile Harness
+## Download Pocket IDE
 
 <div align="center">
   <h3>Choose the edition that fits your setup</h3>
-  <p>Both editions contain the complete Mobile Harness app and support secure in-app updates beginning with v1.0.3.</p>
+  <p>Both editions contain the complete Pocket IDE app and support secure in-app updates beginning with v1.0.3.</p>
 </div>
 
 <table>
@@ -86,7 +86,7 @@
 
 ## Capabilities
 
-Mobile Harness unites modern **Jetpack Compose UI** with a self-contained **Ubuntu 20.04 LTS subsystem**. It gives you a desktop-class software development environment in your pocket without requiring root access, unlocked bootloaders, or external applications like Termux.
+Pocket IDE unites modern **Jetpack Compose UI** with a self-contained **Ubuntu 20.04 LTS subsystem**. It gives you a desktop-class software development environment in your pocket without requiring root access, unlocked bootloaders, or external applications like Termux.
 
 <table>
   <tr>
@@ -210,7 +210,7 @@ Launch the application and follow the interactive setup wizard:
 
 ## Model Providers
 
-Mobile Harness uses Claude Code's Anthropic-compatible API protocol. You can connect official endpoints or route requests through compatible translation proxies:
+Pocket IDE uses Claude Code's Anthropic-compatible API protocol. You can connect official endpoints or route requests through compatible translation proxies:
 
 | Provider | Integration Type | Streaming | Tool Calling | Status | Notes |
 | :--- | :---: | :---: | :---: | :---: | :--- |
@@ -221,7 +221,7 @@ Mobile Harness uses Claude Code's Anthropic-compatible API protocol. You can con
 | **Custom API** | Endpoint Override | Compatible | Compatible | `Experimental` | User-configured gateway |
 
 > [!NOTE]
-> API keys are stored with hardware-backed Android Keystore AES-256-GCM encryption. Antigravity Google OAuth credentials are created and retained only by the official `agy` CLI in its persistent Linux home; Mobile Harness never reads or copies its tokens.
+> API keys are stored with hardware-backed Android Keystore AES-256-GCM encryption. Antigravity Google OAuth credentials are created and retained only by the official `agy` CLI in its persistent Linux home; Pocket IDE never reads or copies its tokens.
 
 ### Coding agents
 
@@ -231,18 +231,18 @@ Mobile Harness uses Claude Code's Anthropic-compatible API protocol. You can con
 | **DeepSeek Harness** | API-key providers | On demand | Existing DSH bridge and settings |
 | **Antigravity CLI** | Official Google OAuth flow | Version-pinned online download | Dedicated `agy` bridge, model, effort, and conversation IDs |
 
-For Antigravity, select **Antigravity CLI**, install it, and tap **Sign in with Google**. Mobile Harness starts the official CLI login, opens the freshly generated Google URL in the system browser, and sends the returned one-time code back to that waiting process. The app does not embed Google login in a WebView and does not construct its own OAuth request.
+For Antigravity, select **Antigravity CLI**, install it, and tap **Sign in with Google**. Pocket IDE starts the official CLI login, opens the freshly generated Google URL in the system browser, and sends the returned one-time code back to that waiting process. The app does not embed Google login in a WebView and does not construct its own OAuth request.
 
 > [!WARNING]
 > Antigravity tasks currently launch with `--dangerously-skip-permissions`. This gives the official agent permission to run tools without individual PocketDev approval prompts. Use it only with projects and prompts you trust. Account quotas and service limits still apply; signing in does not provide unlimited usage.
 
-When Android is selected during onboarding, Mobile Harness installs that complete toolchain into its private Ubuntu environment. Android projects can then be built with the workspace play button. The resulting debug APK is passed directly to Android's system package installer and launched after installation; USB debugging, wireless debugging, an ADB port, and a pairing code are not required. Android still requires the user to allow installs from Mobile Harness and confirm each installation.
+When Android is selected during onboarding, Pocket IDE installs that complete toolchain into its private Ubuntu environment. Android projects can then be built with the workspace play button. The resulting debug APK is passed directly to Android's system package installer and launched after installation; USB debugging, wireless debugging, an ADB port, and a pairing code are not required. Android still requires the user to allow installs from Pocket IDE and confirm each installation.
 
 <br />
 
 ## Architecture
 
-Mobile Harness bridges native Android Jetpack Compose to an isolated PRoot Linux execution layer via an optimized C++ JNI bridge:
+Pocket IDE bridges native Android Jetpack Compose to an isolated PRoot Linux execution layer via an optimized C++ JNI bridge:
 
 ```mermaid
 flowchart TB
@@ -356,7 +356,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 <br />
 
-Mobile Harness allows downloading optional developer packs on demand to conserve space:
+Pocket IDE allows downloading optional developer packs on demand to conserve space:
 
 * **Python Suite**: Python 3.10+, pip, virtualenv, and essential scientific C-extensions.
 * **Android & JVM**: OpenJDK 17 headless runtime and Gradle build tools.
@@ -394,7 +394,7 @@ Mobile-Harness/
 
 <br />
 
-* **Zero Cloud Intermediaries**: Mobile Harness connects your device directly to your chosen AI endpoint. No intermediate relays or telemetry servers collect your prompts or code.
+* **Zero Cloud Intermediaries**: Pocket IDE connects your device directly to your chosen AI endpoint. No intermediate relays or telemetry servers collect your prompts or code.
 * **Scoped Storage**: Project imports and exports utilize Android's official Storage Access Framework (SAF) instead of broad shared storage access.
 * **Cryptographic Checksums**: Root filesystem archives and Claude Code CLI packages are verified via SHA-256 checksums prior to extraction.
 * **Encrypted Secrets**: API tokens are encrypted in hardware-backed storage via Android Keystore.
@@ -412,7 +412,7 @@ Read our complete [Privacy Policy](PRIVACY.md).
 
 </details>
 
-Mobile Harness is currently intended for signed direct APK distribution and private testing. Its Android-project workflow requests permission to submit user-built APKs to Android's package installer, which requires a dedicated Google Play policy declaration and approval if distributed through Play.
+Pocket IDE is currently intended for signed direct APK distribution and private testing. Its Android-project workflow requests permission to submit user-built APKs to Android's package installer, which requires a dedicated Google Play policy declaration and approval if distributed through Play.
 
 <br />
 
@@ -421,13 +421,13 @@ Mobile Harness is currently intended for signed direct APK distribution and priv
 * **Architecture**: Exclusively supports 64-bit ARM (`arm64-v8a`) hardware.
 * **Process Isolation**: PRoot maps file systems and IDs in user space; it is not a cryptographically hardened container or VM.
 * **Terminal Emulation**: The process bridge handles standard CLI workflows and REPLs; specialized ncurses applications may experience minor layout artifacts.
-* **OS Process Management**: Heavy compilation workloads may be throttled if Android applies aggressive battery optimization. It is recommended to exempt Mobile Harness from battery optimization in device settings.
+* **OS Process Management**: Heavy compilation workloads may be throttled if Android applies aggressive battery optimization. It is recommended to exempt Pocket IDE from battery optimization in device settings.
 
 <br />
 
 ## Legal & Trademarks
 
-* Mobile Harness is an independent open-source project and is not affiliated with, endorsed by, or sponsored by Anthropic.
+* Pocket IDE is an independent open-source project and is not affiliated with, endorsed by, or sponsored by Anthropic.
 * **Claude** and **Claude Code** are trademarks of Anthropic, PBC. Claude Code CLI is downloaded directly from Anthropic's official distribution endpoints during setup and remains governed by Anthropic's license terms.
 * Ubuntu, Android, Kotlin, Node.js, Git, and other registered trademarks belong to their respective copyright holders.
 * Third-party open-source licenses are compiled in [`app/src/main/assets/licenses`](app/src/main/assets/licenses).

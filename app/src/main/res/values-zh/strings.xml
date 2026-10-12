@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mobile Harness</string>
+    <string name="app_name">Pocket IDE</string>
 
     <!-- Navigation / Bottom Tabs -->
     <string name="tab_projects">项目</string>
@@ -107,7 +107,7 @@
 
     <!-- Background & Runtime Onboarding -->
     <string name="bg_setup_title">为可靠设置做好准备</string>
-    <string name="bg_setup_subtitle">设置时间取决于您接下来选择的工具链。您可以在其运行期间将 Mobile Harness 置于后台。</string>
+    <string name="bg_setup_subtitle">设置时间取决于您接下来选择的工具链。您可以在其运行期间将 Pocket IDE 置于后台。</string>
     <string name="bg_step_notifications">通知</string>
     <string name="bg_step_background">后台</string>
     <string name="bg_step_task_protection">任务保护</string>
@@ -122,7 +122,7 @@
     <string name="bg_notifications_settings">打开通知设置</string>
     <string name="bg_notifications_skip">不开启通知并继续</string>
     <string name="bg_reliability_title">后台稳定性</string>
-    <string name="bg_reliability_desc">允许 Mobile Harness 在您锁定手机或切换到其他应用时继续执行任务。</string>
+    <string name="bg_reliability_desc">允许 Pocket IDE 在您锁定手机或切换到其他应用时继续执行任务。</string>
     <string name="bg_reliability_privacy">您始终拥有控制权，可以随时从通知中停止任务。</string>
     <string name="bg_reliability_settings">打开电池设置</string>
     <string name="bg_reliability_skip">不设电池优化并继续</string>
@@ -134,7 +134,7 @@
 
     <string name="runtime_setup_device_check_badge">设备检测</string>
     <string name="runtime_setup_device_ready_title">已准备好在此手机上构建</string>
-    <string name="runtime_setup_device_ready_desc">您的手机符合运行要求。接下来选择您的编程工具，Mobile Harness 将自动处理设置。</string>
+    <string name="runtime_setup_device_ready_desc">您的手机符合运行要求。接下来选择您的编程工具，Pocket IDE 将自动处理设置。</string>
     <string name="runtime_setup_sys_compat">系统兼容性</string>
     <string name="runtime_setup_device_ready">您的设备已就绪</string>
     <string name="runtime_setup_device_unsupported">此设备不支持</string>
@@ -157,17 +157,17 @@
     <string name="runtime_setup_coding_agent_badge">编程助手</string>
     <string name="runtime_setup_coding_agent_note">仅下载所选的可选助手。您可以稍后在“设置”中安装或切换助手。</string>
     <string name="runtime_setup_optional_toolchains_badge">可选工具链</string>
-    <string name="runtime_setup_install_btn">安装 Mobile Harness</string>
+    <string name="runtime_setup_install_btn">安装 Pocket IDE</string>
 
     <!-- Setup and Runtime Installation Screens -->
-    <string name="setup_mobile_harness">设置 Mobile Harness</string>
+    <string name="setup_mobile_harness">设置 Pocket IDE</string>
     <string name="setup_local_badge">本地设置</string>
     <string name="setup_build_workspace">构建您的工作区</string>
     <string name="setup_installation_progress">安装进度</string>
     <string name="setup_estimated_time">预计用时 %1$s</string>
     <string name="setup_time_minutes">%1$d–%2$d 分钟</string>
     <string name="setup_live_terminal">实时设置终端</string>
-    <string name="setup_background_note">您可以将 Mobile Harness 置于后台，并通过通知跟踪设置进度。</string>
+    <string name="setup_background_note">您可以将 Pocket IDE 置于后台，并通过通知跟踪设置进度。</string>
     <string name="startup_msg_setting_up">正在设置工作区</string>
     <string name="startup_msg_preparing_tools">正在准备编程工具</string>
     <string name="startup_msg_almost_ready">即将就绪</string>
@@ -186,21 +186,21 @@
     <string name="runtime_msg_preparing_bridge">正在准备 Android 运行时桥接</string>
     <string name="runtime_msg_runtime_ready">私有运行时已就绪</string>
     <string name="runtime_msg_setup_complete">设置完成</string>
-    <string name="runtime_msg_resuming_setup">正在恢复 Mobile Harness 设置</string>
+    <string name="runtime_msg_resuming_setup">正在恢复 Pocket IDE 设置</string>
     <string name="runtime_msg_downloading_generic">正在下载 %1$s</string>
     <string name="runtime_msg_installing_generic">正在安装 %1$s</string>
-    <string name="theme_toggle">切换主题</string><string name="provider_setup_settings_title">AI 服务商和设置</string><string name="provider_device_title">手机就是你的工作区</string><string name="provider_device_desc">Mobile Harness 会在下载私有 Linux 运行环境前检查兼容性。</string><string name="provider_memory">内存</string><string name="provider_memory_mode">%1$s GB 可用 · %2$s</string><string name="provider_full_mode">完整模式</string><string name="provider_lite_mode">轻量模式</string><string name="provider_unknown">未知</string><string name="provider_android_version">Android %1$s</string><string name="provider_security_warning">仅打开你信任的项目。本地 Linux 环境是兼容层，并非强化的安全沙箱。</string>
-    <string name="provider_step_of">第 %1$d 步，共 %2$d 步</string><string name="provider_secure_setup">安全设置</string><string name="provider_connect_ai">连接你的 AI</string><string name="provider_connect_ai_desc">选择 Mobile Harness 访问编程模型的方式。</string><string name="provider_keys_secure">API 密钥会加密保存在 Android 安全存储中。</string><string name="provider_continue">继续</string><string name="provider_use_another_agent">使用其他编程代理</string><string name="provider_beta">测试版</string>
+    <string name="theme_toggle">切换主题</string><string name="provider_setup_settings_title">AI 服务商和设置</string><string name="provider_device_title">手机就是你的工作区</string><string name="provider_device_desc">Pocket IDE 会在下载私有 Linux 运行环境前检查兼容性。</string><string name="provider_memory">内存</string><string name="provider_memory_mode">%1$s GB 可用 · %2$s</string><string name="provider_full_mode">完整模式</string><string name="provider_lite_mode">轻量模式</string><string name="provider_unknown">未知</string><string name="provider_android_version">Android %1$s</string><string name="provider_security_warning">仅打开你信任的项目。本地 Linux 环境是兼容层，并非强化的安全沙箱。</string>
+    <string name="provider_step_of">第 %1$d 步，共 %2$d 步</string><string name="provider_secure_setup">安全设置</string><string name="provider_connect_ai">连接你的 AI</string><string name="provider_connect_ai_desc">选择 Pocket IDE 访问编程模型的方式。</string><string name="provider_keys_secure">API 密钥会加密保存在 Android 安全存储中。</string><string name="provider_continue">继续</string><string name="provider_use_another_agent">使用其他编程代理</string><string name="provider_beta">测试版</string>
     <string name="provider_title_claude">Claude 订阅</string><string name="provider_title_anthropic">Anthropic API</string><string name="provider_title_openrouter">OpenRouter</string><string name="provider_title_deepseek">DeepSeek</string><string name="provider_title_kimi">Kimi</string><string name="provider_title_opencode">OpenCode Zen</string><string name="provider_title_nvidia">NVIDIA NIM</string><string name="provider_title_custom">自定义 API</string><string name="provider_subtitle_claude">Pro、Max、Team 或 Enterprise</string><string name="provider_subtitle_anthropic">用量通过 Console 计费</string><string name="provider_subtitle_openrouter">使用你的 OpenRouter API 密钥</string><string name="provider_subtitle_deepseek">使用你的 DeepSeek API 密钥</string><string name="provider_subtitle_anthropic_compatible">兼容 Anthropic 的端点</string><string name="provider_subtitle_opencode">通过 OpenCode Zen 网关使用模型</string><string name="provider_subtitle_nvidia">由 NVIDIA 托管的 OpenAI 兼容模型</string>
     <string name="provider_gateway_protocol">网关协议</string><string name="provider_gateway_protocol_help">选择网关使用的协议；DeepSeek Harness 会直接进行路由。</string><string name="provider_models_found">找到 %1$d 个可用模型。</string><string name="provider_available_models">可用模型</string><string name="provider_models_count">%1$d/%2$d 个模型</string><string name="provider_refresh_models">刷新模型</string><string name="provider_search_models">搜索模型名称或 ID</string><string name="provider_no_matching_models">没有匹配的模型</string><string name="provider_free"> 免费</string><string name="provider_encrypted_locally">已在本地加密</string>
-    <string name="provider_endpoint_deepseek">DeepSeek Harness 将通过此 API 端点连接。</string><string name="provider_endpoint_translate">Mobile Harness 将为此服务商转换 Claude Code 请求。</string><string name="provider_endpoint_claude">Claude Code 将通过此 API 端点连接。</string><string name="provider_fixed_by">由 %1$s 固定</string><string name="provider_saved_key_placeholder">已安全保存 — 留空以保留</string><string name="provider_enter_key">输入 API 密钥</string><string name="provider_saved_key_ready">已保存的密钥可直接使用</string><string name="provider_model_name">模型名称</string><string name="provider_model_help">选择可用模型或输入准确的模型 ID。</string><string name="provider_find_models">查找可用模型</string><string name="provider_available_models_count">可用模型（%1$d）</string><string name="provider_checking_settings">正在检查 API 密钥、模型和 Claude Code 设置…</string><string name="provider_checking">正在检查</string>
+    <string name="provider_endpoint_deepseek">DeepSeek Harness 将通过此 API 端点连接。</string><string name="provider_endpoint_translate">Pocket IDE 将为此服务商转换 Claude Code 请求。</string><string name="provider_endpoint_claude">Claude Code 将通过此 API 端点连接。</string><string name="provider_fixed_by">由 %1$s 固定</string><string name="provider_saved_key_placeholder">已安全保存 — 留空以保留</string><string name="provider_enter_key">输入 API 密钥</string><string name="provider_saved_key_ready">已保存的密钥可直接使用</string><string name="provider_model_name">模型名称</string><string name="provider_model_help">选择可用模型或输入准确的模型 ID。</string><string name="provider_find_models">查找可用模型</string><string name="provider_available_models_count">可用模型（%1$d）</string><string name="provider_checking_settings">正在检查 API 密钥、模型和 Claude Code 设置…</string><string name="provider_checking">正在检查</string>
     <string name="provider_claude_connect_desc">将 Claude Pro、Max、Team 或 Enterprise 订阅连接到 Claude Code。</string><string name="provider_claude_step_one">1. 在已安装 Claude Code 的电脑上运行：</string><string name="provider_claude_step_two">2. 登录 Claude，并将生成的令牌粘贴到这里。</string><string name="provider_claude_token">Claude 设置令牌</string><string name="provider_paste_token">粘贴令牌</string><string name="provider_saved_token_ready">已保存的订阅令牌可直接使用</string><string name="provider_toggle_token_visibility">显示或隐藏令牌</string><string name="provider_save_continue">保存并继续</string>
     <string name="agent_choose_title">选择编程代理</string><string name="agent_choose_desc">当前服务不可用时可切换代理。现有登录信息和凭据会继续保留。</string><string name="agent_recommended">推荐</string><string name="agent_title_claude">Claude Code</string><string name="agent_title_deepseek">DeepSeek Harness</string><string name="agent_title_antigravity">Antigravity CLI</string><string name="agent_subtitle_claude">Anthropic 编程代理 · 广泛支持服务商</string><string name="agent_subtitle_deepseek">DeepSeek 官方编程代理 · API 密钥服务商</string><string name="agent_subtitle_antigravity">Google 官方编程代理 · Google 账号</string>
     <string name="projects_hero_title">在手机上构建</string><string name="projects_hero_desc">聊天、审查更改并预览项目。</string><string name="projects_quick_project">快速项目</string><string name="projects_new_project">新建项目</string><string name="projects_bring_existing">导入现有项目</string><string name="projects_import_expanded">导入文件或克隆完整 Git 历史</string><string name="projects_import_sources">ZIP 文件、Git 仓库或 GitHub</string><string name="projects_your_projects">你的项目</string><string name="projects_empty_title">还没有项目</string><string name="projects_empty_desc">创建命名项目，或通过快速项目立即开始。</string><string name="projects_terminal">终端</string>
     <string name="agent_screen_title">AI 代理</string><string name="agent_status_testing">正在测试…</string><string name="agent_status_attention">需要注意</string><string name="agent_status_online">在线</string><string name="agent_status_not_tested">尚未测试</string><string name="agent_provider_title">AI 服务商</string><string name="agent_custom_api_settings">自定义 API 设置</string><string name="agent_endpoint_protocol">端点和协议</string><string name="agent_model_access">模型和访问</string><string name="agent_discovering">正在发现…</string><string name="agent_discover_models">发现模型</string><string name="agent_models_count">%1$d 个模型</string><string name="agent_ai_model">AI 模型</string><string name="agent_select_model">选择或输入模型 ID</string><string name="agent_subscription_token">订阅令牌</string><string name="agent_credentials">凭据</string><string name="agent_test_connection">测试连接</string><string name="agent_runtime_updates">运行环境更新</string><string name="agent_updates_current">已安装代理会保持最新</string><string name="agent_check_updates">检查更新</string><string name="agent_security_footer">API 密钥已在 Android 安全存储中加密 · 可从任意项目访问终端</string><string name="agent_approval_footer">自动批准工具 · 在私有 Linux 工作区中运行</string>
     <string name="projects_importing">正在导入…</string><string name="projects_zip_file">ZIP 文件</string><string name="projects_cloning">正在克隆…</string><string name="projects_git_url">Git 地址</string><string name="projects_github_account">GitHub · @%1$s</string><string name="projects_connect_github">连接 GitHub</string><string name="projects_browse_repositories">浏览公开和私有仓库</string><string name="projects_sign_in_repositories">登录以访问你的仓库</string>
     <string name="agent_not_installed">尚未安装 %1$s</string><string name="agent_install_description">安装其 %1$s 代理软件包，即可用于现有项目。</string><string name="agent_install_action">安装 %1$s</string>
-    <string name="agent_installing_binary">正在安装代理二进制文件…</string><string name="chat_welcome">你好！告诉我你想要构建或更改什么。</string><string name="chat_message_agent">向 %1$s 发送消息…</string><string name="workspace_files">文件</string><string name="workspace_no_files">还没有文件</string><string name="workspace_no_files_description">请让你的编程代理在这个项目中创建内容。</string><string name="workspace_project_terminal">项目终端</string><string name="workspace_terminal_ready">Mobile Harness 终端已就绪。\n在下方输入 bash 命令，或点按上方快捷命令。</string><string name="workspace_preview_url">预览 URL</string><string name="workspace_preview_not_running">预览未运行</string><string name="workspace_preview_not_running_description">在上方输入 localhost URL，或在项目终端中启动本地 Web 服务器。</string>
+    <string name="agent_installing_binary">正在安装代理二进制文件…</string><string name="chat_welcome">你好！告诉我你想要构建或更改什么。</string><string name="chat_message_agent">向 %1$s 发送消息…</string><string name="workspace_files">文件</string><string name="workspace_no_files">还没有文件</string><string name="workspace_no_files_description">请让你的编程代理在这个项目中创建内容。</string><string name="workspace_project_terminal">项目终端</string><string name="workspace_terminal_ready">Pocket IDE 终端已就绪。\n在下方输入 bash 命令，或点按上方快捷命令。</string><string name="workspace_preview_url">预览 URL</string><string name="workspace_preview_not_running">预览未运行</string><string name="workspace_preview_not_running_description">在上方输入 localhost URL，或在项目终端中启动本地 Web 服务器。</string>
     <string name="agent_connection_verified">%1$s 连接已验证。</string><string name="agent_status_verified">已验证</string>
     <string name="chat_attach_files">附加文件</string><string name="chat_take_photo">拍照</string><string name="chat_choose_files">选择文件</string><string name="chat_camera_unavailable">没有可用的相机应用</string>
     <string name="export_busy">请先停止任务、终端、构建或文件保存，再进行导出。</string><string name="export_success">已导出 %1$s</string><string name="export_failed">导出失败：%1$s</string><string name="unknown_error">未知错误</string><string name="file_saved">文件已保存</string><string name="file_save_failed">无法保存文件</string><string name="select_files">选择文件</string><string name="select_all">全选</string><string name="collapse_all">全部折叠</string><string name="export_project_zip">将项目导出为 ZIP</string><string name="collapse_folder">折叠文件夹</string><string name="expand_folder">展开文件夹</string><string name="creating_zip">正在创建 ZIP…</string><string name="download_zip">下载 ZIP</string><string name="unsaved_changes">未保存的更改</string><string name="unsaved_changes_description">离开文件前保存更改吗？</string><string name="save">保存</string><string name="discard">丢弃</string><string name="keep_editing">继续编辑</string><string name="file_changed_title">文件已更改</string><string name="file_changed_description">此文件已在编辑器外更改。请重新加载，以免覆盖较新的更改。</string><string name="reload">重新加载</string><string name="cancel">取消</string><string name="close_file">关闭文件</string><string name="save_file">保存文件</string><string name="copy_file_contents">复制文件内容</string><string name="edit_file">编辑文件</string><string name="no_content">无内容</string><string name="file_could_not_read">无法读取文件。</string><string name="file_binary_description">无法显示或编辑二进制文件。</string><string name="file_invalid_utf8_description">只能编辑有效的 UTF-8 文本文件。</string><string name="file_unsafe_description">无法打开此受保护或不安全的路径。</string><string name="file_too_large_description">超过 512 KB 的文件仅提供只读预览。</string><string name="undo">撤销</string><string name="redo">重做</string><string name="find_in_file">在文件中查找</string><string name="find">查找</string><string name="previous_match">上一个匹配项</string><string name="next_match">下一个匹配项</string><string name="unsaved">未保存</string><string name="saved">已保存</string>

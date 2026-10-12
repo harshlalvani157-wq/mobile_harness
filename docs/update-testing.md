@@ -44,7 +44,7 @@ hidden in release builds).
 Paste:
 
 ```
-https://<your-tunnel-url>/mobile-harness-update.json
+https://<your-tunnel-url>/pocket-ide-update.json
 ```
 
 Tap **Use & check**. The updater immediately re-fetches the manifest. The

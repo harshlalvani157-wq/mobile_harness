@@ -108,7 +108,7 @@
     <string name="st_update_badge">ACTUALIZAR</string>
     <string name="st_update_channel">Canal de actualizaciones</string>
     <string name="st_update_channel_default">Versión predeterminada de GitHub</string>
-    <string name="st_update_channel_help">Solo para compilaciones de depuración. Pega la URL temporal del manifiesto de Cloudflare Tunnel, ngrok o cualquier servidor HTTPS que aloje mobile-harness-update.json y un APK más reciente.</string>
+    <string name="st_update_channel_help">Solo para compilaciones de depuración. Pega la URL temporal del manifiesto de Cloudflare Tunnel, ngrok o cualquier servidor HTTPS que aloje pocket-ide-update.json y un APK más reciente.</string>
     <string name="st_update_channel_overridden">Reemplazado · solo depuración</string>
     <string name="st_use_and_check">Usar y comprobar</string>
     <string name="st_use_custom_model_id">Usar ID de modelo personalizado:</string>

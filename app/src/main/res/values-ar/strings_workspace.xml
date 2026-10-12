@@ -48,7 +48,7 @@
     <string name="ws_setup_expand_details">توسيع تفاصيل الإعداد</string>
     <string name="ws_jump_to_latest">الانتقال إلى الأحدث</string>
     <string name="ws_error_offline">أنت غير متصل بالإنترنت</string>
-    <string name="ws_error_start_failed">تعذّر على Mobile Harness إكمال التشغيل</string>
+    <string name="ws_error_start_failed">تعذّر على Pocket IDE إكمال التشغيل</string>
     <string name="ws_error_try_again_msg">يرجى المحاولة مرة أخرى.</string>
     <string name="ws_setup_log_copied">تم نسخ سجل الإعداد</string>
     <string name="ws_copy_setup_logs">نسخ سجلات الإعداد</string>
@@ -79,9 +79,9 @@
     <string name="ws_repo_public">عام</string>
     <string name="ws_disconnect">قطع الاتصال</string>
     <string name="ws_update_to">التحديث إلى %1$s</string>
-    <string name="ws_update_default_notes">احصل على أحدث التحسينات والإصلاحات لـ Mobile Harness.</string>
+    <string name="ws_update_default_notes">احصل على أحدث التحسينات والإصلاحات لـ Pocket IDE.</string>
     <string name="ws_update_download_size">حجم التنزيل: %1$s</string>
-    <string name="ws_update_allow_unknown_apps">اسمح بـ ‘تثبيت التطبيقات غير المعروفة’ لـ Mobile Harness. بدون هذا الإذن لن يثبّت Android التحديث.</string>
+    <string name="ws_update_allow_unknown_apps">اسمح بـ ‘تثبيت التطبيقات غير المعروفة’ لـ Pocket IDE. بدون هذا الإذن لن يثبّت Android التحديث.</string>
     <string name="ws_update_downloading_progress">جارٍ التنزيل %1$s / %2$s · %3$d%%</string>
     <string name="ws_update_downloading">جارٍ التنزيل %1$s</string>
     <string name="ws_update_verified_installing">تم التحقق من التنزيل. جارٍ فتح مثبّت Android…</string>
@@ -148,7 +148,7 @@
     <string name="ws_project_files">ملفات المشروع</string>
     <string name="ws_review_ai_changes">راجع كل ما غيّره الذكاء الاصطناعي.</string>
     <string name="ws_no_changes_yet">لا توجد تغييرات بعد</string>
-    <string name="ws_no_changes_desc">اطلب من Mobile Harness تحديث مشروعك.</string>
+    <string name="ws_no_changes_desc">اطلب من Pocket IDE تحديث مشروعك.</string>
     <string name="ws_hide_diff">إخفاء الفروقات سطرًا بسطر</string>
     <string name="ws_tap_review_diff">انقر لمراجعة الفروقات</string>
     <string name="ws_undo_file">التراجع عن الملف</string>

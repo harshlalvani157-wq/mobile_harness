@@ -108,7 +108,7 @@
     <string name="st_update_badge">更新</string>
     <string name="st_update_channel">更新渠道</string>
     <string name="st_update_channel_default">默认 GitHub 发布版</string>
-    <string name="st_update_channel_help">仅限调试版本。粘贴来自 Cloudflare Tunnel、ngrok 或任何托管 mobile-harness-update.json 和较新 APK 的 HTTPS 服务器的临时清单 URL。</string>
+    <string name="st_update_channel_help">仅限调试版本。粘贴来自 Cloudflare Tunnel、ngrok 或任何托管 pocket-ide-update.json 和较新 APK 的 HTTPS 服务器的临时清单 URL。</string>
     <string name="st_update_channel_overridden">已覆盖 · 仅限调试</string>
     <string name="st_use_and_check">使用并检查</string>
     <string name="st_use_custom_model_id">使用自定义模型 ID：</string>

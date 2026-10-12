@@ -31,7 +31,7 @@
     <string name="vm_installer_start_failed">Не удалось запустить установщик Android</string>
     <string name="vm_update_download_failed">Не удалось загрузить обновление</string>
     <string name="vm_setup_offline">Подключитесь к Wi-Fi или мобильной сети и повторите попытку. Для завершения первоначальной настройки нужен интернет.</string>
-    <string name="vm_setup_generic_error">Что-то пошло не так при подготовке Mobile Harness. Попробуйте ещё раз.</string>
+    <string name="vm_setup_generic_error">Что-то пошло не так при подготовке Pocket IDE. Попробуйте ещё раз.</string>
     <string name="vm_antigravity_sign_in_first">Сначала войдите в Antigravity</string>
     <string name="vm_stop_agent_before_switching">Остановите текущего агента перед переключением.</string>
     <string name="vm_preparing_named">Подготовка %1$s…</string>

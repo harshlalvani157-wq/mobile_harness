@@ -31,7 +31,7 @@
     <string name="vm_installer_start_failed">Could not start the Android installer</string>
     <string name="vm_update_download_failed">Update download failed</string>
     <string name="vm_setup_offline">Connect to Wi-Fi or mobile data, then try again. Internet is required to finish the first-time setup.</string>
-    <string name="vm_setup_generic_error">Something went wrong while preparing Mobile Harness. Please try again.</string>
+    <string name="vm_setup_generic_error">Something went wrong while preparing Pocket IDE. Please try again.</string>
     <string name="vm_antigravity_sign_in_first">Sign in to Antigravity first</string>
     <string name="vm_stop_agent_before_switching">Stop the current agent before switching.</string>
     <string name="vm_preparing_named">Preparing %1$s…</string>

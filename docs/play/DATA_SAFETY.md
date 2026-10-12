@@ -8,7 +8,7 @@ Use this worksheet when completing the Play Console Data safety form. Recheck it
 - The app does not include analytics or crash-reporting SDKs in the current release.
 - Data is encrypted in transit when communicating with external services.
 - Users can delete local projects and chats in the app; uninstalling removes app-private data.
-- Mobile Harness does not operate a first-party account system in the current release.
+- Pocket IDE does not operate a first-party account system in the current release.
 
 ## Data sent off device
 
@@ -21,7 +21,7 @@ When the user configures and uses an AI provider, the following may be sent to t
 | Audio files | Audio deliberately attached by the user | Collected by the selected provider only when included in a request | Optional | V1 does not automatically transcribe audio |
 | Authentication information | Provider API key or short-lived provider credential | Shared with the selected provider/gateway for authentication | Required for provider access | Encrypted locally and in transit |
 
-The app itself does not send projects or conversations to the Mobile Harness developer unless a user deliberately shares them through a separate support channel.
+The app itself does not send projects or conversations to the Pocket IDE developer unless a user deliberately shares them through a separate support channel.
 
 ## Other network recipients
 

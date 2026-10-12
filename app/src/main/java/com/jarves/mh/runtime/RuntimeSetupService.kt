@@ -74,7 +74,7 @@ object RuntimeSetupController {
     @Synchronized
     fun begin(context: Context) {
         val previous = mutableSnapshot.value.logs
-        val logs = (previous + "— Resuming Mobile Harness setup —").takeLast(MAX_LOG_LINES)
+        val logs = (previous + "— Resuming Pocket IDE setup —").takeLast(MAX_LOG_LINES)
         set(
             context,
             RuntimeSetupSnapshot(

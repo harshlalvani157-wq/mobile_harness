@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="rt_install_incomplete">कोर रनटाइम सेटअप अधूरा है। इसे ठीक करने के लिए Mobile Harness फिर से खोलें।</string>
-    <string name="rt_install_unsupported_arch">असमर्थित आर्किटेक्चर: Mobile Harness के लिए ARM64 डिवाइस या ARM64 एमुलेटर आवश्यक है</string>
+    <string name="rt_install_incomplete">कोर रनटाइम सेटअप अधूरा है। इसे ठीक करने के लिए Pocket IDE फिर से खोलें।</string>
+    <string name="rt_install_unsupported_arch">असमर्थित आर्किटेक्चर: Pocket IDE के लिए ARM64 डिवाइस या ARM64 एमुलेटर आवश्यक है</string>
     <string name="rt_install_preparing_runtime">निजी डेवलपमेंट रनटाइम तैयार किया जा रहा है</string>
     <string name="rt_install_unpacking_core">Core रनटाइम की जाँच और अनपैकिंग हो रही है</string>
     <string name="rt_install_git_base_tools">Git और बुनियादी टूल इंस्टॉल हो रहे हैं</string>
@@ -45,28 +45,28 @@
     <string name="rt_install_runtime_ready">निजी रनटाइम तैयार है</string>
     <string name="rt_install_download_failed_http">डाउनलोड HTTP %1$d के साथ विफल रहा</string>
     <string name="rt_setup_preparing_workspace">आपका निजी कोडिंग वर्कस्पेस तैयार हो रहा है</string>
-    <string name="rt_setup_ready">Mobile Harness तैयार है</string>
+    <string name="rt_setup_ready">Pocket IDE तैयार है</string>
     <string name="rt_setup_offline">Wi-Fi या मोबाइल डेटा से कनेक्ट करें, फिर सेटअप जारी रखें।</string>
-    <string name="rt_setup_dpkg_interrupted">Android ने Linux सेटअप बीच में रोक दिया। दोबारा कोशिश करने पर Mobile Harness इसे ठीक कर देगा।</string>
-    <string name="rt_setup_failed_generic">Mobile Harness सेटअप पूरा नहीं कर सका।</string>
+    <string name="rt_setup_dpkg_interrupted">Android ने Linux सेटअप बीच में रोक दिया। दोबारा कोशिश करने पर Pocket IDE इसे ठीक कर देगा।</string>
+    <string name="rt_setup_failed_generic">Pocket IDE सेटअप पूरा नहीं कर सका।</string>
     <string name="rt_setup_paused">सेटअप रोका गया</string>
-    <string name="rt_setup_notification_title">Mobile Harness सेट अप हो रहा है</string>
+    <string name="rt_setup_notification_title">Pocket IDE सेट अप हो रहा है</string>
     <string name="rt_setup_stop">सेटअप रोकें</string>
     <string name="rt_setup_needs_attention">सेटअप पर ध्यान देने की ज़रूरत है</string>
     <string name="rt_setup_ready_detail">आपका निजी कोडिंग वर्कस्पेस तैयार है।</string>
-    <string name="rt_setup_channel_name">Mobile Harness सेटअप</string>
+    <string name="rt_setup_channel_name">Pocket IDE सेटअप</string>
     <string name="rt_setup_channel_description">निजी कोडिंग परिवेश की डाउनलोड और इंस्टॉलेशन प्रगति दिखाता है</string>
     <string name="rt_exec_default_project">आपका प्रोजेक्ट</string>
-    <string name="rt_exec_default_title">Mobile Harness काम कर रहा है</string>
+    <string name="rt_exec_default_title">Pocket IDE काम कर रहा है</string>
     <string name="rt_exec_stopping">सुरक्षित रूप से रोका जा रहा है…</string>
     <string name="rt_exec_working_in">%1$s में काम चल रहा है</string>
     <string name="rt_exec_task_completed">कार्य पूरा हुआ</string>
-    <string name="rt_exec_finished_in">Mobile Harness ने %1$s में काम पूरा कर लिया।</string>
+    <string name="rt_exec_finished_in">Pocket IDE ने %1$s में काम पूरा कर लिया।</string>
     <string name="rt_exec_task_attention">कार्य पर ध्यान देने की ज़रूरत है</string>
-    <string name="rt_exec_could_not_finish">Mobile Harness कार्य पूरा नहीं कर सका।</string>
+    <string name="rt_exec_could_not_finish">Pocket IDE कार्य पूरा नहीं कर सका।</string>
     <string name="rt_exec_stop_task">कार्य रोकें</string>
     <string name="rt_exec_channel_running">चल रहे कोडिंग कार्य</string>
-    <string name="rt_exec_channel_running_description">Mobile Harness के बैकग्राउंड में काम करते समय प्रगति दिखाता है</string>
+    <string name="rt_exec_channel_running_description">Pocket IDE के बैकग्राउंड में काम करते समय प्रगति दिखाता है</string>
     <string name="rt_exec_channel_results">कार्य परिणाम</string>
     <string name="rt_exec_channel_results_description">कोडिंग कार्य पूरा होने या ध्यान देने की ज़रूरत होने पर आपको सूचित करता है</string>
     <string name="rt_bridge_starting">%1$s शुरू हो रहा है…</string>
@@ -134,7 +134,7 @@
     <string name="rt_update_checksum_failed">डाउनलोड किया गया APK SHA-256 सत्यापन में विफल रहा</string>
     <string name="rt_update_prepare_failed">डाउनलोड किया गया अपडेट तैयार नहीं हो सका</string>
     <string name="rt_update_invalid_apk">डाउनलोड की गई फ़ाइल मान्य APK नहीं है</string>
-    <string name="rt_update_package_mismatch">अपडेट का पैकेज नाम Mobile Harness से मेल नहीं खाता</string>
+    <string name="rt_update_package_mismatch">अपडेट का पैकेज नाम Pocket IDE से मेल नहीं खाता</string>
     <string name="rt_update_version_mismatch">अपडेट संस्करण उसके मैनिफ़ेस्ट से मेल नहीं खाता</string>
     <string name="rt_update_signature_mismatch">अपडेट इंस्टॉल ऐप की साइनिंग कुंजी से साइन नहीं है</string>
     <string name="rt_api_http_public">सादा http:// केवल लोकल नेटवर्क पतों (जैसे 192.168.x.x, 10.x.x.x, Tailscale या .local) के लिए अनुमत है। इस सर्वर के लिए https:// का उपयोग करें।</string>

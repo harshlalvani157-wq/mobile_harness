@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="rt_install_incomplete">Core runtime setup is incomplete. Reopen Mobile Harness to repair it.</string>
-    <string name="rt_install_unsupported_arch">Unsupported architecture: Mobile Harness requires an ARM64 device or ARM64 emulator</string>
+    <string name="rt_install_incomplete">Core runtime setup is incomplete. Reopen Pocket IDE to repair it.</string>
+    <string name="rt_install_unsupported_arch">Unsupported architecture: Pocket IDE requires an ARM64 device or ARM64 emulator</string>
     <string name="rt_install_preparing_runtime">Preparing the private development runtime</string>
     <string name="rt_install_unpacking_core">Verifying and unpacking the Core runtime</string>
     <string name="rt_install_git_base_tools">Installing Git and base tools</string>
@@ -46,28 +46,28 @@
     <string name="rt_install_runtime_ready">Private runtime is ready</string>
     <string name="rt_install_download_failed_http">Download failed with HTTP %1$d</string>
     <string name="rt_setup_preparing_workspace">Preparing your private coding workspace</string>
-    <string name="rt_setup_ready">Mobile Harness is ready</string>
+    <string name="rt_setup_ready">Pocket IDE is ready</string>
     <string name="rt_setup_offline">Connect to Wi-Fi or mobile data, then resume setup.</string>
-    <string name="rt_setup_dpkg_interrupted">Android interrupted Linux setup. Mobile Harness will repair it when you try again.</string>
-    <string name="rt_setup_failed_generic">Mobile Harness could not finish setup.</string>
+    <string name="rt_setup_dpkg_interrupted">Android interrupted Linux setup. Pocket IDE will repair it when you try again.</string>
+    <string name="rt_setup_failed_generic">Pocket IDE could not finish setup.</string>
     <string name="rt_setup_paused">Setup paused</string>
-    <string name="rt_setup_notification_title">Setting up Mobile Harness</string>
+    <string name="rt_setup_notification_title">Setting up Pocket IDE</string>
     <string name="rt_setup_stop">Stop setup</string>
     <string name="rt_setup_needs_attention">Setup needs attention</string>
     <string name="rt_setup_ready_detail">Your private coding workspace is ready.</string>
-    <string name="rt_setup_channel_name">Mobile Harness setup</string>
+    <string name="rt_setup_channel_name">Pocket IDE setup</string>
     <string name="rt_setup_channel_description">Shows download and installation progress for the private coding environment</string>
     <string name="rt_exec_default_project">your project</string>
-    <string name="rt_exec_default_title">Mobile Harness is working</string>
+    <string name="rt_exec_default_title">Pocket IDE is working</string>
     <string name="rt_exec_stopping">Stopping safely…</string>
     <string name="rt_exec_working_in">Working in %1$s</string>
     <string name="rt_exec_task_completed">Task completed</string>
-    <string name="rt_exec_finished_in">Mobile Harness finished working in %1$s.</string>
+    <string name="rt_exec_finished_in">Pocket IDE finished working in %1$s.</string>
     <string name="rt_exec_task_attention">Task needs attention</string>
-    <string name="rt_exec_could_not_finish">Mobile Harness could not finish the task.</string>
+    <string name="rt_exec_could_not_finish">Pocket IDE could not finish the task.</string>
     <string name="rt_exec_stop_task">Stop task</string>
     <string name="rt_exec_channel_running">Running coding tasks</string>
-    <string name="rt_exec_channel_running_description">Shows progress while Mobile Harness is working in the background</string>
+    <string name="rt_exec_channel_running_description">Shows progress while Pocket IDE is working in the background</string>
     <string name="rt_exec_channel_results">Task results</string>
     <string name="rt_exec_channel_results_description">Notifies you when a coding task finishes or needs attention</string>
     <string name="rt_bridge_starting">Starting %1$s…</string>
@@ -135,7 +135,7 @@
     <string name="rt_update_checksum_failed">Downloaded APK failed its SHA-256 verification</string>
     <string name="rt_update_prepare_failed">Could not prepare the downloaded update</string>
     <string name="rt_update_invalid_apk">Downloaded file is not a valid APK</string>
-    <string name="rt_update_package_mismatch">Update package name does not match Mobile Harness</string>
+    <string name="rt_update_package_mismatch">Update package name does not match Pocket IDE</string>
     <string name="rt_update_version_mismatch">Update version does not match its manifest</string>
     <string name="rt_update_signature_mismatch">Update is not signed with the installed app\'s signing key</string>
     <string name="rt_api_http_public">Plain http:// is only allowed for local network addresses (like 192.168.x.x, 10.x.x.x, Tailscale or .local). Use https:// for this server.</string>

@@ -108,7 +108,7 @@
     <string name="st_update_badge">अपडेट</string>
     <string name="st_update_channel">अपडेट चैनल</string>
     <string name="st_update_channel_default">डिफ़ॉल्ट GitHub रिलीज़</string>
-    <string name="st_update_channel_help">केवल डिबग बिल्ड के लिए। Cloudflare Tunnel, ngrok या mobile-harness-update.json और नया APK होस्ट करने वाले किसी भी HTTPS सर्वर का अस्थायी मैनिफ़ेस्ट URL चिपकाएँ।</string>
+    <string name="st_update_channel_help">केवल डिबग बिल्ड के लिए। Cloudflare Tunnel, ngrok या pocket-ide-update.json और नया APK होस्ट करने वाले किसी भी HTTPS सर्वर का अस्थायी मैनिफ़ेस्ट URL चिपकाएँ।</string>
     <string name="st_update_channel_overridden">ओवरराइड किया गया · केवल डिबग</string>
     <string name="st_use_and_check">उपयोग करें और जाँचें</string>
     <string name="st_use_custom_model_id">कस्टम मॉडल ID उपयोग करें:</string>

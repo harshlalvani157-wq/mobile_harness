@@ -48,7 +48,7 @@
     <string name="ws_setup_expand_details">Expandir detalles de configuración</string>
     <string name="ws_jump_to_latest">Ir a lo más reciente</string>
     <string name="ws_error_offline">Estás sin conexión</string>
-    <string name="ws_error_start_failed">Mobile Harness no pudo terminar de iniciarse</string>
+    <string name="ws_error_start_failed">Pocket IDE no pudo terminar de iniciarse</string>
     <string name="ws_error_try_again_msg">Inténtalo de nuevo.</string>
     <string name="ws_setup_log_copied">Registro de configuración copiado</string>
     <string name="ws_copy_setup_logs">Copiar registros de configuración</string>
@@ -79,9 +79,9 @@
     <string name="ws_repo_public">Público</string>
     <string name="ws_disconnect">Desconectar</string>
     <string name="ws_update_to">Actualizar a %1$s</string>
-    <string name="ws_update_default_notes">Obtén las últimas mejoras y correcciones de Mobile Harness.</string>
+    <string name="ws_update_default_notes">Obtén las últimas mejoras y correcciones de Pocket IDE.</string>
     <string name="ws_update_download_size">Tamaño de descarga: %1$s</string>
-    <string name="ws_update_allow_unknown_apps">Permite «Instalar apps desconocidas» para Mobile Harness. Sin este permiso, Android no instalará la actualización.</string>
+    <string name="ws_update_allow_unknown_apps">Permite «Instalar apps desconocidas» para Pocket IDE. Sin este permiso, Android no instalará la actualización.</string>
     <string name="ws_update_downloading_progress">Descargando %1$s / %2$s · %3$d%%</string>
     <string name="ws_update_downloading">Descargando %1$s</string>
     <string name="ws_update_verified_installing">Descarga verificada. Abriendo el instalador de Android…</string>
@@ -148,7 +148,7 @@
     <string name="ws_project_files">Archivos del proyecto</string>
     <string name="ws_review_ai_changes">Revisa todo lo que cambió la IA.</string>
     <string name="ws_no_changes_yet">Aún no hay cambios</string>
-    <string name="ws_no_changes_desc">Pide a Mobile Harness que actualice tu proyecto.</string>
+    <string name="ws_no_changes_desc">Pide a Pocket IDE que actualice tu proyecto.</string>
     <string name="ws_hide_diff">Ocultar diferencias línea por línea</string>
     <string name="ws_tap_review_diff">Toca para revisar las diferencias</string>
     <string name="ws_undo_file">Deshacer archivo</string>

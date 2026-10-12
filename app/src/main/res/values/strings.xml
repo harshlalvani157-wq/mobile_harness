@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mobile Harness</string>
+    <string name="app_name">Pocket IDE</string>
 
     <!-- Navigation / Bottom Tabs -->
     <string name="tab_projects">Projects</string>
@@ -123,7 +123,7 @@
 
     <!-- Background & Runtime Onboarding -->
     <string name="bg_setup_title">Prepare for reliable setup</string>
-    <string name="bg_setup_subtitle">Setup time depends on the toolchains you choose next. You may leave Mobile Harness in the background while it works.</string>
+    <string name="bg_setup_subtitle">Setup time depends on the toolchains you choose next. You may leave Pocket IDE in the background while it works.</string>
     <string name="bg_step_notifications">Notifications</string>
     <string name="bg_step_background">Background</string>
     <string name="bg_step_task_protection">Task protection</string>
@@ -138,7 +138,7 @@
     <string name="bg_notifications_settings">Open notification settings</string>
     <string name="bg_notifications_skip">Continue without notifications</string>
     <string name="bg_reliability_title">Background reliability</string>
-    <string name="bg_reliability_desc">Allow Mobile Harness to continue a task when you lock the phone or switch to another app.</string>
+    <string name="bg_reliability_desc">Allow Pocket IDE to continue a task when you lock the phone or switch to another app.</string>
     <string name="bg_reliability_privacy">You remain in control and can stop every task from its notification.</string>
     <string name="bg_reliability_settings">Open battery settings</string>
     <string name="bg_reliability_skip">Continue without battery exemption</string>
@@ -150,7 +150,7 @@
 
     <string name="runtime_setup_device_check_badge">DEVICE CHECK</string>
     <string name="runtime_setup_device_ready_title">Ready to build on this phone</string>
-    <string name="runtime_setup_device_ready_desc">Your phone meets the requirements. Choose your coding tools next and Mobile Harness will handle the setup.</string>
+    <string name="runtime_setup_device_ready_desc">Your phone meets the requirements. Choose your coding tools next and Pocket IDE will handle the setup.</string>
     <string name="runtime_setup_sys_compat">System compatibility</string>
     <string name="runtime_setup_device_ready">Your device is ready</string>
     <string name="runtime_setup_device_unsupported">This device is unsupported</string>
@@ -173,17 +173,17 @@
     <string name="runtime_setup_coding_agent_badge">CODING AGENT</string>
     <string name="runtime_setup_coding_agent_note">Only the selected optional agent is downloaded. You can install or switch agents later from Settings.</string>
     <string name="runtime_setup_optional_toolchains_badge">OPTIONAL TOOLCHAINS</string>
-    <string name="runtime_setup_install_btn">Install Mobile Harness</string>
+    <string name="runtime_setup_install_btn">Install Pocket IDE</string>
 
     <!-- Setup and Runtime Installation Screens -->
-    <string name="setup_mobile_harness">Set up Mobile Harness</string>
+    <string name="setup_mobile_harness">Set up Pocket IDE</string>
     <string name="setup_local_badge">Local setup</string>
     <string name="setup_build_workspace">Build your workspace</string>
     <string name="setup_installation_progress">Installation progress</string>
     <string name="setup_estimated_time">Estimated %1$s</string>
     <string name="setup_time_minutes">%1$d–%2$d minutes</string>
     <string name="setup_live_terminal">Live setup terminal</string>
-    <string name="setup_background_note">You can leave Mobile Harness in the background and follow setup from the notification.</string>
+    <string name="setup_background_note">You can leave Pocket IDE in the background and follow setup from the notification.</string>
     <string name="startup_msg_setting_up">Setting up your workspace</string>
     <string name="startup_msg_preparing_tools">Preparing your coding tools</string>
     <string name="startup_msg_almost_ready">Almost ready</string>
@@ -202,14 +202,14 @@
     <string name="runtime_msg_preparing_bridge">Preparing the Android runtime bridge</string>
     <string name="runtime_msg_runtime_ready">Private runtime is ready</string>
     <string name="runtime_msg_setup_complete">Setup complete</string>
-    <string name="runtime_msg_resuming_setup">Resuming Mobile Harness setup</string>
+    <string name="runtime_msg_resuming_setup">Resuming Pocket IDE setup</string>
     <string name="runtime_msg_downloading_generic">Downloading %1$s</string>
     <string name="runtime_msg_installing_generic">Installing %1$s</string>
     <!-- Provider onboarding -->
     <string name="theme_toggle">Toggle theme</string>
     <string name="provider_setup_settings_title">AI Provider &amp; Settings</string>
     <string name="provider_device_title">Your phone is the workspace</string>
-    <string name="provider_device_desc">Mobile Harness checks compatibility before downloading the private Linux runtime.</string>
+    <string name="provider_device_desc">Pocket IDE checks compatibility before downloading the private Linux runtime.</string>
     <string name="provider_memory">Memory</string>
     <string name="provider_memory_mode">%1$s GB usable · %2$s</string>
     <string name="provider_full_mode">Full mode</string>
@@ -220,7 +220,7 @@
     <string name="provider_step_of">STEP %1$d OF %2$d</string>
     <string name="provider_secure_setup">Secure setup</string>
     <string name="provider_connect_ai">Connect your AI</string>
-    <string name="provider_connect_ai_desc">Choose how Mobile Harness should access your coding model.</string>
+    <string name="provider_connect_ai_desc">Choose how Pocket IDE should access your coding model.</string>
     <string name="provider_keys_secure">API keys are encrypted in Android secure storage.</string>
     <string name="provider_continue">Continue</string>
     <string name="provider_use_another_agent">Use another coding agent</string>
@@ -251,7 +251,7 @@
     <string name="provider_free"> FREE</string>
     <string name="provider_encrypted_locally">Encrypted locally</string>
     <string name="provider_endpoint_deepseek">DeepSeek Harness will connect through this API endpoint.</string>
-    <string name="provider_endpoint_translate">Mobile Harness will translate Claude Code requests for this provider.</string>
+    <string name="provider_endpoint_translate">Pocket IDE will translate Claude Code requests for this provider.</string>
     <string name="provider_endpoint_claude">Claude Code will connect through this API endpoint.</string>
     <string name="provider_fixed_by">Fixed by %1$s</string>
     <string name="provider_saved_key_placeholder">Saved securely — leave blank to keep it</string>
@@ -284,7 +284,7 @@
     <string name="agent_screen_title">AI Agent</string><string name="agent_status_testing">Testing…</string><string name="agent_status_attention">Attention</string><string name="agent_status_online">Online</string><string name="agent_status_not_tested">Not tested</string><string name="agent_provider_title">AI provider</string><string name="agent_custom_api_settings">Custom API settings</string><string name="agent_endpoint_protocol">Endpoint &amp; protocol</string><string name="agent_model_access">Model &amp; access</string><string name="agent_discovering">Discovering…</string><string name="agent_discover_models">Discover models</string><string name="agent_models_count">%1$d models</string><string name="agent_ai_model">AI model</string><string name="agent_select_model">Select or type a model ID</string><string name="agent_subscription_token">Subscription token</string><string name="agent_credentials">Credentials</string><string name="agent_test_connection">Test connection</string><string name="agent_runtime_updates">Runtime updates</string><string name="agent_updates_current">Installed agents stay current</string><string name="agent_check_updates">Check updates</string><string name="agent_security_footer">API keys encrypted in Android secure storage · Terminal is accessible from any project</string><string name="agent_approval_footer">Automatic tool approval · Runs inside the private Linux workspace</string>
     <string name="projects_importing">Importing…</string><string name="projects_zip_file">ZIP file</string><string name="projects_cloning">Cloning…</string><string name="projects_git_url">Git URL</string><string name="projects_github_account">GitHub · @%1$s</string><string name="projects_connect_github">Connect GitHub</string><string name="projects_browse_repositories">Browse public and private repositories</string><string name="projects_sign_in_repositories">Sign in to access your repositories</string>
     <string name="agent_not_installed">%1$s is not installed</string><string name="agent_install_description">Install its %1$s agent package to use it with your existing projects.</string><string name="agent_install_action">Install %1$s</string>
-    <string name="agent_installing_binary">Installing agent binary…</string><string name="chat_welcome">Hi! Tell me what you want to build or change.</string><string name="chat_message_agent">Message %1$s…</string><string name="workspace_files">Files</string><string name="workspace_no_files">No files yet</string><string name="workspace_no_files_description">Ask your coding agent to create something in this project.</string><string name="workspace_project_terminal">Project Terminal</string><string name="workspace_terminal_ready">Mobile Harness Terminal ready.\nType a bash command below or tap a quick command chip above.</string><string name="workspace_preview_url">Preview URL</string><string name="workspace_preview_not_running">Preview not running</string><string name="workspace_preview_not_running_description">Enter a localhost URL above, or start a local web server in the project Terminal.</string>
+    <string name="agent_installing_binary">Installing agent binary…</string><string name="chat_welcome">Hi! Tell me what you want to build or change.</string><string name="chat_message_agent">Message %1$s…</string><string name="workspace_files">Files</string><string name="workspace_no_files">No files yet</string><string name="workspace_no_files_description">Ask your coding agent to create something in this project.</string><string name="workspace_project_terminal">Project Terminal</string><string name="workspace_terminal_ready">Pocket IDE Terminal ready.\nType a bash command below or tap a quick command chip above.</string><string name="workspace_preview_url">Preview URL</string><string name="workspace_preview_not_running">Preview not running</string><string name="workspace_preview_not_running_description">Enter a localhost URL above, or start a local web server in the project Terminal.</string>
     <string name="agent_connection_verified">%1$s connection verified.</string><string name="agent_status_verified">Verified</string>
     <string name="chat_attach_files">Attach files</string><string name="chat_take_photo">Take photo</string><string name="chat_choose_files">Choose files</string><string name="chat_camera_unavailable">No camera app is available</string>
     <string name="export_busy">Stop the running task, terminal command, build, or file save before exporting.</string>

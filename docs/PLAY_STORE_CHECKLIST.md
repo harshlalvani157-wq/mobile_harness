@@ -41,7 +41,7 @@ This checklist covers the Play-facing work for package `com.jarves.mh`. It does 
 - [ ] Complete Anthropic branding, authentication, licensing, and redistribution review
 - [ ] Resolve or obtain approval for the local executable-runtime architecture
 
-Account-deletion and Play Billing requirements apply only if Mobile Harness later introduces first-party accounts or sells digital subscriptions in the app.
+Account-deletion and Play Billing requirements apply only if Pocket IDE later introduces first-party accounts or sells digital subscriptions in the app.
 
 ## Build configuration
 

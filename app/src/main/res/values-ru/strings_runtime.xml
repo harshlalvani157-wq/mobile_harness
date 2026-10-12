@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="rt_install_incomplete">Настройка базовой среды не завершена. Откройте Mobile Harness снова, чтобы восстановить её.</string>
-    <string name="rt_install_unsupported_arch">Неподдерживаемая архитектура: для Mobile Harness требуется устройство ARM64 или эмулятор ARM64</string>
+    <string name="rt_install_incomplete">Настройка базовой среды не завершена. Откройте Pocket IDE снова, чтобы восстановить её.</string>
+    <string name="rt_install_unsupported_arch">Неподдерживаемая архитектура: для Pocket IDE требуется устройство ARM64 или эмулятор ARM64</string>
     <string name="rt_install_preparing_runtime">Подготовка частной среды разработки</string>
     <string name="rt_install_unpacking_core">Проверка и распаковка среды Core</string>
     <string name="rt_install_git_base_tools">Установка Git и базовых инструментов</string>
@@ -45,28 +45,28 @@
     <string name="rt_install_runtime_ready">Частная среда готова</string>
     <string name="rt_install_download_failed_http">Ошибка загрузки: HTTP %1$d</string>
     <string name="rt_setup_preparing_workspace">Подготовка вашего частного рабочего пространства</string>
-    <string name="rt_setup_ready">Mobile Harness готов</string>
+    <string name="rt_setup_ready">Pocket IDE готов</string>
     <string name="rt_setup_offline">Подключитесь к Wi-Fi или мобильной сети, затем продолжите настройку.</string>
-    <string name="rt_setup_dpkg_interrupted">Android прервал настройку Linux. Mobile Harness исправит это при следующей попытке.</string>
-    <string name="rt_setup_failed_generic">Mobile Harness не удалось завершить настройку.</string>
+    <string name="rt_setup_dpkg_interrupted">Android прервал настройку Linux. Pocket IDE исправит это при следующей попытке.</string>
+    <string name="rt_setup_failed_generic">Pocket IDE не удалось завершить настройку.</string>
     <string name="rt_setup_paused">Настройка приостановлена</string>
-    <string name="rt_setup_notification_title">Настройка Mobile Harness</string>
+    <string name="rt_setup_notification_title">Настройка Pocket IDE</string>
     <string name="rt_setup_stop">Остановить настройку</string>
     <string name="rt_setup_needs_attention">Настройка требует внимания</string>
     <string name="rt_setup_ready_detail">Ваше частное рабочее пространство готово.</string>
-    <string name="rt_setup_channel_name">Настройка Mobile Harness</string>
+    <string name="rt_setup_channel_name">Настройка Pocket IDE</string>
     <string name="rt_setup_channel_description">Показывает ход загрузки и установки частной среды разработки</string>
     <string name="rt_exec_default_project">вашем проекте</string>
-    <string name="rt_exec_default_title">Mobile Harness работает</string>
+    <string name="rt_exec_default_title">Pocket IDE работает</string>
     <string name="rt_exec_stopping">Безопасная остановка…</string>
     <string name="rt_exec_working_in">Работа в: %1$s</string>
     <string name="rt_exec_task_completed">Задача выполнена</string>
-    <string name="rt_exec_finished_in">Mobile Harness завершил работу в: %1$s.</string>
+    <string name="rt_exec_finished_in">Pocket IDE завершил работу в: %1$s.</string>
     <string name="rt_exec_task_attention">Задача требует внимания</string>
-    <string name="rt_exec_could_not_finish">Mobile Harness не удалось завершить задачу.</string>
+    <string name="rt_exec_could_not_finish">Pocket IDE не удалось завершить задачу.</string>
     <string name="rt_exec_stop_task">Остановить задачу</string>
     <string name="rt_exec_channel_running">Выполняемые задачи</string>
-    <string name="rt_exec_channel_running_description">Показывает ход работы, пока Mobile Harness работает в фоне</string>
+    <string name="rt_exec_channel_running_description">Показывает ход работы, пока Pocket IDE работает в фоне</string>
     <string name="rt_exec_channel_results">Результаты задач</string>
     <string name="rt_exec_channel_results_description">Сообщает, когда задача завершена или требует внимания</string>
     <string name="rt_bridge_starting">Запуск %1$s…</string>
@@ -134,7 +134,7 @@
     <string name="rt_update_checksum_failed">Загруженный APK не прошёл проверку SHA-256</string>
     <string name="rt_update_prepare_failed">Не удалось подготовить загруженное обновление</string>
     <string name="rt_update_invalid_apk">Загруженный файл не является корректным APK</string>
-    <string name="rt_update_package_mismatch">Имя пакета обновления не совпадает с Mobile Harness</string>
+    <string name="rt_update_package_mismatch">Имя пакета обновления не совпадает с Pocket IDE</string>
     <string name="rt_update_version_mismatch">Версия обновления не совпадает с манифестом</string>
     <string name="rt_update_signature_mismatch">Обновление не подписано ключом установленного приложения</string>
     <string name="rt_api_http_public">Незашифрованный http:// разрешён только для адресов локальной сети (например, 192.168.x.x, 10.x.x.x, Tailscale или .local). Для этого сервера используйте https://.</string>

@@ -48,7 +48,7 @@
     <string name="ws_setup_expand_details">Expand setup details</string>
     <string name="ws_jump_to_latest">Jump to latest</string>
     <string name="ws_error_offline">You\'re offline</string>
-    <string name="ws_error_start_failed">Mobile Harness couldn\'t finish starting</string>
+    <string name="ws_error_start_failed">Pocket IDE couldn\'t finish starting</string>
     <string name="ws_error_try_again_msg">Please try again.</string>
     <string name="ws_setup_log_copied">Setup log copied</string>
     <string name="ws_copy_setup_logs">Copy setup logs</string>
@@ -79,9 +79,9 @@
     <string name="ws_repo_public">Public</string>
     <string name="ws_disconnect">Disconnect</string>
     <string name="ws_update_to">Update to %1$s</string>
-    <string name="ws_update_default_notes">Get the latest improvements and fixes for Mobile Harness.</string>
+    <string name="ws_update_default_notes">Get the latest improvements and fixes for Pocket IDE.</string>
     <string name="ws_update_download_size">Download size: %1$s</string>
-    <string name="ws_update_allow_unknown_apps">Allow ‘Install unknown apps’ for Mobile Harness. Without this permission, Android will not install the update.</string>
+    <string name="ws_update_allow_unknown_apps">Allow ‘Install unknown apps’ for Pocket IDE. Without this permission, Android will not install the update.</string>
     <string name="ws_update_downloading_progress">Downloading %1$s / %2$s · %3$d%%</string>
     <string name="ws_update_downloading">Downloading %1$s</string>
     <string name="ws_update_verified_installing">Download verified. Opening Android installer…</string>
@@ -148,7 +148,7 @@
     <string name="ws_project_files">Project files</string>
     <string name="ws_review_ai_changes">Review everything the AI changed.</string>
     <string name="ws_no_changes_yet">No changes yet</string>
-    <string name="ws_no_changes_desc">Ask Mobile Harness to update your project.</string>
+    <string name="ws_no_changes_desc">Ask Pocket IDE to update your project.</string>
     <string name="ws_hide_diff">Hide line-by-line diff</string>
     <string name="ws_tap_review_diff">Tap to review diff</string>
     <string name="ws_undo_file">Undo file</string>

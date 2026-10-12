@@ -9,7 +9,7 @@
 
 ## First launch
 
-1. Open Mobile Harness.
+1. Open Pocket IDE.
 2. Review the compatibility screen.
 3. Notification permission is requested only after tapping the notification permission button. It may be denied; foreground progress remains visible inside the app.
 4. Choose core tools and tap Install. First setup normally takes 10–12 minutes.
@@ -17,7 +17,7 @@
 
 ## Provider access
 
-The current release has no first-party Mobile Harness account. AI features require an Anthropic-compatible provider credential. Before review, place a time-limited, low-quota test credential and its exact base URL/model in Play Console **App access** instructions. Never include that credential in the APK, repository, screenshots, or this document.
+The current release has no first-party Pocket IDE account. AI features require an Anthropic-compatible provider credential. Before review, place a time-limited, low-quota test credential and its exact base URL/model in Play Console **App access** instructions. Never include that credential in the APK, repository, screenshots, or this document.
 
 ## Suggested review flow
 

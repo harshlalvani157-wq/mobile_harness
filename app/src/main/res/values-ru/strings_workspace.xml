@@ -48,7 +48,7 @@
     <string name="ws_setup_expand_details">Развернуть сведения об установке</string>
     <string name="ws_jump_to_latest">К последним</string>
     <string name="ws_error_offline">Нет подключения к интернету</string>
-    <string name="ws_error_start_failed">Не удалось завершить запуск Mobile Harness</string>
+    <string name="ws_error_start_failed">Не удалось завершить запуск Pocket IDE</string>
     <string name="ws_error_try_again_msg">Попробуйте ещё раз.</string>
     <string name="ws_setup_log_copied">Журнал установки скопирован</string>
     <string name="ws_copy_setup_logs">Скопировать журналы установки</string>
@@ -79,9 +79,9 @@
     <string name="ws_repo_public">Публичный</string>
     <string name="ws_disconnect">Отключить</string>
     <string name="ws_update_to">Обновить до %1$s</string>
-    <string name="ws_update_default_notes">Получите последние улучшения и исправления Mobile Harness.</string>
+    <string name="ws_update_default_notes">Получите последние улучшения и исправления Pocket IDE.</string>
     <string name="ws_update_download_size">Размер загрузки: %1$s</string>
-    <string name="ws_update_allow_unknown_apps">Разрешите «Установку неизвестных приложений» для Mobile Harness. Без этого разрешения Android не установит обновление.</string>
+    <string name="ws_update_allow_unknown_apps">Разрешите «Установку неизвестных приложений» для Pocket IDE. Без этого разрешения Android не установит обновление.</string>
     <string name="ws_update_downloading_progress">Загрузка %1$s / %2$s · %3$d%%</string>
     <string name="ws_update_downloading">Загрузка %1$s</string>
     <string name="ws_update_verified_installing">Загрузка проверена. Открывается установщик Android…</string>
@@ -148,7 +148,7 @@
     <string name="ws_project_files">Файлы проекта</string>
     <string name="ws_review_ai_changes">Проверьте всё, что изменил ИИ.</string>
     <string name="ws_no_changes_yet">Изменений пока нет</string>
-    <string name="ws_no_changes_desc">Попросите Mobile Harness обновить ваш проект.</string>
+    <string name="ws_no_changes_desc">Попросите Pocket IDE обновить ваш проект.</string>
     <string name="ws_hide_diff">Скрыть построчные изменения</string>
     <string name="ws_tap_review_diff">Нажмите, чтобы просмотреть изменения</string>
     <string name="ws_undo_file">Отменить файл</string>

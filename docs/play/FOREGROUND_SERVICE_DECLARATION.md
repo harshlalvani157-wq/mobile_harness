@@ -1,6 +1,6 @@
 # Foreground-service declaration
 
-Mobile Harness uses two user-initiated `specialUse` foreground services. The manifest subtype descriptions and Play Console declaration must match the behavior below.
+Pocket IDE uses two user-initiated `specialUse` foreground services. The manifest subtype descriptions and Play Console declaration must match the behavior below.
 
 ## Runtime setup service
 
@@ -30,7 +30,7 @@ Suggested Play Console wording:
 
 Record one continuous, reviewer-accessible video:
 
-1. Open Mobile Harness and start runtime setup from the explicit Install button.
+1. Open Pocket IDE and start runtime setup from the explicit Install button.
 2. Show the ongoing notification, real progress, Open action, and Stop setup action.
 3. Return to the app and show the same live setup session.
 4. In a prepared project, send a small coding task.

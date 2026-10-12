@@ -31,7 +31,7 @@
     <string name="vm_installer_start_failed">无法启动 Android 安装程序</string>
     <string name="vm_update_download_failed">更新下载失败</string>
     <string name="vm_setup_offline">请连接 Wi-Fi 或移动数据后重试。完成首次设置需要联网。</string>
-    <string name="vm_setup_generic_error">准备 Mobile Harness 时出错。请重试。</string>
+    <string name="vm_setup_generic_error">准备 Pocket IDE 时出错。请重试。</string>
     <string name="vm_antigravity_sign_in_first">请先登录 Antigravity</string>
     <string name="vm_stop_agent_before_switching">切换前请先停止当前代理。</string>
     <string name="vm_preparing_named">正在准备 %1$s…</string>

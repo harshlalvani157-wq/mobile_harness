@@ -108,7 +108,7 @@
     <string name="st_update_badge">ОБНОВЛЕНИЕ</string>
     <string name="st_update_channel">Канал обновлений</string>
     <string name="st_update_channel_default">Стандартный релиз GitHub</string>
-    <string name="st_update_channel_help">Только для отладочных сборок. Вставьте временный URL манифеста из Cloudflare Tunnel, ngrok или любого HTTPS-сервера, где размещены mobile-harness-update.json и более новый APK.</string>
+    <string name="st_update_channel_help">Только для отладочных сборок. Вставьте временный URL манифеста из Cloudflare Tunnel, ngrok или любого HTTPS-сервера, где размещены pocket-ide-update.json и более новый APK.</string>
     <string name="st_update_channel_overridden">Переопределено · только отладка</string>
     <string name="st_use_and_check">Использовать и проверить</string>
     <string name="st_use_custom_model_id">Использовать свой ID модели:</string>

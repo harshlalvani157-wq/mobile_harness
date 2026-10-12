@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.22.1)
 project(mobile_harness_native C ASM)
 
 if(NOT ANDROID_ABI STREQUAL "arm64-v8a")
-    message(FATAL_ERROR "Mobile Harness currently supports only arm64-v8a")
+    message(FATAL_ERROR "Pocket IDE currently supports only arm64-v8a")
 endif()
 
 set(PROJECT_ROOT "${CMAKE_CURRENT_SOURCE_DIR}/../../../..")

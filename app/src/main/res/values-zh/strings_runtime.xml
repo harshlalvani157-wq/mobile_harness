@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="rt_install_incomplete">核心运行环境设置未完成。请重新打开 Mobile Harness 进行修复。</string>
-    <string name="rt_install_unsupported_arch">不支持的架构：Mobile Harness 需要 ARM64 设备或 ARM64 模拟器</string>
+    <string name="rt_install_incomplete">核心运行环境设置未完成。请重新打开 Pocket IDE 进行修复。</string>
+    <string name="rt_install_unsupported_arch">不支持的架构：Pocket IDE 需要 ARM64 设备或 ARM64 模拟器</string>
     <string name="rt_install_preparing_runtime">正在准备私有开发运行环境</string>
     <string name="rt_install_unpacking_core">正在校验并解压 Core 运行环境</string>
     <string name="rt_install_git_base_tools">正在安装 Git 和基础工具</string>
@@ -45,28 +45,28 @@
     <string name="rt_install_runtime_ready">私有运行环境已就绪</string>
     <string name="rt_install_download_failed_http">下载失败，HTTP %1$d</string>
     <string name="rt_setup_preparing_workspace">正在准备你的私有编程工作区</string>
-    <string name="rt_setup_ready">Mobile Harness 已就绪</string>
+    <string name="rt_setup_ready">Pocket IDE 已就绪</string>
     <string name="rt_setup_offline">请连接 Wi-Fi 或移动数据，然后继续设置。</string>
-    <string name="rt_setup_dpkg_interrupted">Android 中断了 Linux 设置。重试时 Mobile Harness 会自动修复。</string>
-    <string name="rt_setup_failed_generic">Mobile Harness 无法完成设置。</string>
+    <string name="rt_setup_dpkg_interrupted">Android 中断了 Linux 设置。重试时 Pocket IDE 会自动修复。</string>
+    <string name="rt_setup_failed_generic">Pocket IDE 无法完成设置。</string>
     <string name="rt_setup_paused">设置已暂停</string>
-    <string name="rt_setup_notification_title">正在设置 Mobile Harness</string>
+    <string name="rt_setup_notification_title">正在设置 Pocket IDE</string>
     <string name="rt_setup_stop">停止设置</string>
     <string name="rt_setup_needs_attention">设置需要处理</string>
     <string name="rt_setup_ready_detail">你的私有编程工作区已就绪。</string>
-    <string name="rt_setup_channel_name">Mobile Harness 设置</string>
+    <string name="rt_setup_channel_name">Pocket IDE 设置</string>
     <string name="rt_setup_channel_description">显示私有编程环境的下载和安装进度</string>
     <string name="rt_exec_default_project">你的项目</string>
-    <string name="rt_exec_default_title">Mobile Harness 正在工作</string>
+    <string name="rt_exec_default_title">Pocket IDE 正在工作</string>
     <string name="rt_exec_stopping">正在安全停止…</string>
     <string name="rt_exec_working_in">正在 %1$s 中工作</string>
     <string name="rt_exec_task_completed">任务已完成</string>
-    <string name="rt_exec_finished_in">Mobile Harness 已在 %1$s 中完成工作。</string>
+    <string name="rt_exec_finished_in">Pocket IDE 已在 %1$s 中完成工作。</string>
     <string name="rt_exec_task_attention">任务需要处理</string>
-    <string name="rt_exec_could_not_finish">Mobile Harness 无法完成该任务。</string>
+    <string name="rt_exec_could_not_finish">Pocket IDE 无法完成该任务。</string>
     <string name="rt_exec_stop_task">停止任务</string>
     <string name="rt_exec_channel_running">正在运行的编程任务</string>
-    <string name="rt_exec_channel_running_description">在 Mobile Harness 后台工作时显示进度</string>
+    <string name="rt_exec_channel_running_description">在 Pocket IDE 后台工作时显示进度</string>
     <string name="rt_exec_channel_results">任务结果</string>
     <string name="rt_exec_channel_results_description">在编程任务完成或需要处理时通知你</string>
     <string name="rt_bridge_starting">正在启动 %1$s…</string>
@@ -134,7 +134,7 @@
     <string name="rt_update_checksum_failed">已下载的 APK 未通过 SHA-256 校验</string>
     <string name="rt_update_prepare_failed">无法准备已下载的更新</string>
     <string name="rt_update_invalid_apk">已下载的文件不是有效的 APK</string>
-    <string name="rt_update_package_mismatch">更新包名称与 Mobile Harness 不匹配</string>
+    <string name="rt_update_package_mismatch">更新包名称与 Pocket IDE 不匹配</string>
     <string name="rt_update_version_mismatch">更新版本与其清单不一致</string>
     <string name="rt_update_signature_mismatch">更新未使用已安装应用的签名密钥签名</string>
     <string name="rt_api_http_public">未加密的 http:// 仅允许用于局域网地址（如 192.168.x.x、10.x.x.x、Tailscale 或 .local）。此服务器请使用 https://。</string>

@@ -48,7 +48,7 @@
     <string name="ws_setup_expand_details">展开设置详情</string>
     <string name="ws_jump_to_latest">跳到最新</string>
     <string name="ws_error_offline">您处于离线状态</string>
-    <string name="ws_error_start_failed">Mobile Harness 未能完成启动</string>
+    <string name="ws_error_start_failed">Pocket IDE 未能完成启动</string>
     <string name="ws_error_try_again_msg">请重试。</string>
     <string name="ws_setup_log_copied">已复制设置日志</string>
     <string name="ws_copy_setup_logs">复制设置日志</string>
@@ -79,9 +79,9 @@
     <string name="ws_repo_public">公开</string>
     <string name="ws_disconnect">断开连接</string>
     <string name="ws_update_to">更新到 %1$s</string>
-    <string name="ws_update_default_notes">获取 Mobile Harness 的最新改进和修复。</string>
+    <string name="ws_update_default_notes">获取 Pocket IDE 的最新改进和修复。</string>
     <string name="ws_update_download_size">下载大小：%1$s</string>
-    <string name="ws_update_allow_unknown_apps">请为 Mobile Harness 开启“安装未知应用”权限。没有此权限，Android 将无法安装更新。</string>
+    <string name="ws_update_allow_unknown_apps">请为 Pocket IDE 开启“安装未知应用”权限。没有此权限，Android 将无法安装更新。</string>
     <string name="ws_update_downloading_progress">正在下载 %1$s / %2$s · %3$d%%</string>
     <string name="ws_update_downloading">正在下载 %1$s</string>
     <string name="ws_update_verified_installing">下载已验证。正在打开 Android 安装程序…</string>
@@ -148,7 +148,7 @@
     <string name="ws_project_files">项目文件</string>
     <string name="ws_review_ai_changes">审查 AI 所做的全部更改。</string>
     <string name="ws_no_changes_yet">暂无更改</string>
-    <string name="ws_no_changes_desc">让 Mobile Harness 更新您的项目。</string>
+    <string name="ws_no_changes_desc">让 Pocket IDE 更新您的项目。</string>
     <string name="ws_hide_diff">隐藏逐行差异</string>
     <string name="ws_tap_review_diff">点按以查看差异</string>
     <string name="ws_undo_file">撤销文件</string>

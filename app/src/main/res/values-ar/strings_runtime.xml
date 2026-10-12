@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="rt_install_incomplete">إعداد بيئة التشغيل الأساسية غير مكتمل. أعد فتح Mobile Harness لإصلاحه.</string>
-    <string name="rt_install_unsupported_arch">بنية غير مدعومة: يتطلب Mobile Harness جهاز ARM64 أو محاكي ARM64</string>
+    <string name="rt_install_incomplete">إعداد بيئة التشغيل الأساسية غير مكتمل. أعد فتح Pocket IDE لإصلاحه.</string>
+    <string name="rt_install_unsupported_arch">بنية غير مدعومة: يتطلب Pocket IDE جهاز ARM64 أو محاكي ARM64</string>
     <string name="rt_install_preparing_runtime">جارٍ تجهيز بيئة التطوير الخاصة</string>
     <string name="rt_install_unpacking_core">جارٍ التحقق من بيئة Core وفك ضغطها</string>
     <string name="rt_install_git_base_tools">جارٍ تثبيت Git والأدوات الأساسية</string>
@@ -45,28 +45,28 @@
     <string name="rt_install_runtime_ready">بيئة التشغيل الخاصة جاهزة</string>
     <string name="rt_install_download_failed_http">فشل التنزيل برمز HTTP %1$d</string>
     <string name="rt_setup_preparing_workspace">جارٍ تجهيز مساحة البرمجة الخاصة بك</string>
-    <string name="rt_setup_ready">Mobile Harness جاهز</string>
+    <string name="rt_setup_ready">Pocket IDE جاهز</string>
     <string name="rt_setup_offline">اتصل بشبكة Wi-Fi أو بيانات الجوال، ثم استأنف الإعداد.</string>
-    <string name="rt_setup_dpkg_interrupted">قاطع Android إعداد Linux. سيصلحه Mobile Harness عند المحاولة مرة أخرى.</string>
-    <string name="rt_setup_failed_generic">تعذّر على Mobile Harness إكمال الإعداد.</string>
+    <string name="rt_setup_dpkg_interrupted">قاطع Android إعداد Linux. سيصلحه Pocket IDE عند المحاولة مرة أخرى.</string>
+    <string name="rt_setup_failed_generic">تعذّر على Pocket IDE إكمال الإعداد.</string>
     <string name="rt_setup_paused">تم إيقاف الإعداد مؤقتًا</string>
-    <string name="rt_setup_notification_title">جارٍ إعداد Mobile Harness</string>
+    <string name="rt_setup_notification_title">جارٍ إعداد Pocket IDE</string>
     <string name="rt_setup_stop">إيقاف الإعداد</string>
     <string name="rt_setup_needs_attention">الإعداد يحتاج إلى انتباهك</string>
     <string name="rt_setup_ready_detail">مساحة البرمجة الخاصة بك جاهزة.</string>
-    <string name="rt_setup_channel_name">إعداد Mobile Harness</string>
+    <string name="rt_setup_channel_name">إعداد Pocket IDE</string>
     <string name="rt_setup_channel_description">يعرض تقدم التنزيل والتثبيت لبيئة البرمجة الخاصة</string>
     <string name="rt_exec_default_project">مشروعك</string>
-    <string name="rt_exec_default_title">Mobile Harness يعمل</string>
+    <string name="rt_exec_default_title">Pocket IDE يعمل</string>
     <string name="rt_exec_stopping">جارٍ الإيقاف بأمان…</string>
     <string name="rt_exec_working_in">جارٍ العمل في %1$s</string>
     <string name="rt_exec_task_completed">اكتملت المهمة</string>
-    <string name="rt_exec_finished_in">أنهى Mobile Harness العمل في %1$s.</string>
+    <string name="rt_exec_finished_in">أنهى Pocket IDE العمل في %1$s.</string>
     <string name="rt_exec_task_attention">المهمة تحتاج إلى انتباهك</string>
-    <string name="rt_exec_could_not_finish">تعذّر على Mobile Harness إنهاء المهمة.</string>
+    <string name="rt_exec_could_not_finish">تعذّر على Pocket IDE إنهاء المهمة.</string>
     <string name="rt_exec_stop_task">إيقاف المهمة</string>
     <string name="rt_exec_channel_running">مهام البرمجة الجارية</string>
-    <string name="rt_exec_channel_running_description">يعرض التقدم أثناء عمل Mobile Harness في الخلفية</string>
+    <string name="rt_exec_channel_running_description">يعرض التقدم أثناء عمل Pocket IDE في الخلفية</string>
     <string name="rt_exec_channel_results">نتائج المهام</string>
     <string name="rt_exec_channel_results_description">يُعلمك عند انتهاء مهمة برمجة أو حاجتها إلى انتباهك</string>
     <string name="rt_bridge_starting">جارٍ بدء %1$s…</string>
@@ -134,7 +134,7 @@
     <string name="rt_update_checksum_failed">فشل ملف APK الذي تم تنزيله في التحقق من SHA-256</string>
     <string name="rt_update_prepare_failed">تعذّر تجهيز التحديث الذي تم تنزيله</string>
     <string name="rt_update_invalid_apk">الملف الذي تم تنزيله ليس ملف APK صالحًا</string>
-    <string name="rt_update_package_mismatch">اسم حزمة التحديث لا يطابق Mobile Harness</string>
+    <string name="rt_update_package_mismatch">اسم حزمة التحديث لا يطابق Pocket IDE</string>
     <string name="rt_update_version_mismatch">إصدار التحديث لا يطابق ملف البيان الخاص به</string>
     <string name="rt_update_signature_mismatch">التحديث غير موقّع بمفتاح توقيع التطبيق المثبّت</string>
     <string name="rt_api_http_public">يُسمح باستخدام http:// غير المشفّر فقط لعناوين الشبكة المحلية (مثل 192.168.x.x أو 10.x.x.x أو Tailscale أو .local). استخدم https:// لهذا الخادم.</string>
